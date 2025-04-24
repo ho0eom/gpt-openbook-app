@@ -6,7 +6,7 @@ from llama_index.core.settings import Settings
 import os
 
 # 🔐 OpenAI API 키 입력 (아래에 네 키 붙여넣기!)
-os.environ["OPENAI_API_KEY"] = "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"
+
 
 # ✅ GPT-4o mini 모델 설정
 Settings.llm = OpenAI(model="gpt-4o", temperature=0.2)
