@@ -1,0 +1,9 @@
+·변등성매관한척도 
+e 사분위간 범위틀 이용한 특이값의 구별 방법 
+O 암모니아를 산화하여 질산을 만드는 화학공정에서는 
+손실(stack loss) 이 발생하는데, 01 는 여러 조건에 
+따라 변화하는 것으로 알려져 있음 
+> Flow of cooling air 
+> Cooling Water Inlet Temperature 
+> Concentration of acid 
+'（-’강원LRS공유대악 

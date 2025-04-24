@@ -1,0 +1,9 @@
+• 
+:1:I DH 빅 [1l0l E·l 
+- 예제 
+Rstudio 에서 "dementia.csv'’ 를 불러와서 dementia 라는 
+이름을 가진 객제에 저장해보자. 
+- 예제의 R 코드 
+dementia <- read.csv("dementia.csv", header = TRUE) 
+head (dementia) 
+'（-’강원LRS공유대악 

@@ -1,0 +1,13 @@
+• 
+[R] 도수분포표 생성 
+e 요인을 활용하여 빈도가 없는 수준(level) 도 도수분포표매 
+고려되도록해야합 
+- 예제 : A, B, C, D, F로 부여되는 학점 
+# incorrect 
+grade2 <- c("A" , "C" , "A" , "B") 
+table(grade2) 
+> tabl e (grade2) 
+grade2 
+A B C 
+2 1 1 
+'（-’강원LRS공유대악 

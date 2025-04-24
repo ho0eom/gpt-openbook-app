@@ -1,0 +1,25 @@
+𝑋~𝑃𝑜𝑖𝑠𝑠𝑜𝑛𝜆, 𝑓𝑥=
+𝜆𝑥𝑒−𝜆
+𝑥!# R codeplot(c(0:20), dpois(x = 0:20, 2), type = “h”, lwd = 10, col = “grey”, ylim = c(0, 0.4), xlab = “”, ylab = “”)
+𝑋~𝑃𝑜𝑖𝑠(2)
+·포아송분포 
+(0[R] 포아송분포 
+O 포아송분포 
+'（-’강원LRS공유대악 
+( ) ( ) — 
+>
+·o 
+co 
+zo 
+LO 
+o
+·o 
+l," ………… .. 
+10 
+15 
+20 
+# R code 
+plot(c(0:20), dpois(x = 0:20, 2), type = "h", 
+" 
+lwd = 10, col = "grey", ylim = c(O, 0.4), 
+xlab = "", ylab = "") 

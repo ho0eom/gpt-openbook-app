@@ -1,0 +1,293 @@
+.llDH 빅[1l0lE·l 
+(0l1DH 빅테이터의 
+” 예제 
+탐색 
+지매에 관련된 빅테이터가 
+"dementia.csv'’ 에 저장되어 있다 
+'（-’강원LRS공유대악 
+파일을 열어 테이터의 구조를 살펴보고 각 변수의 의미가 무엇인지 파악해보자. 
+A 
+B 
+C 
+D 
+G 
+H 
+M 
+N 
+。
+Q 
+R 
+1 ID 
+death_time death 
+Status 
+Sex 
+Education Race 
+Marital_status 
+APDE4 
+ADAS11 
+ADASl 3 MMSE WholeBrain Ventricles Hippocampus Entorhinal_cortex 
+Fusiform_gyrus 
+Middle_temporal_gyrus 
+2 
+1 
+77 5 
+0 MCI 
+Female 
+12 White 
+Married 
+。
+43 
+61 
+28 
+967642 
+52130 
+6601 
+4454 
+17218 
+19283 
+3 
+2 
+91 5 
+0 Normal 
+Female 
+18 White 
+Married 
+。
+96 
+181 
+25 
+946943 
+18804 
+6710 
+2315 
+17273 
+19362 
+4 
+65 
+1 Dementia 
+Male 
+17 White 
+Married 
+2 
+22 3 
+34 
+21 
+940071 
+42995 
+6316 
+2382 
+14884 
+18244 
+5 
+4 
+67 6 
+0 Normal 
+Male 
+18 White 
+Married 
+。
+67 
+96 
+30 
+1051389 
+22914 
+6807 
+3462 
+18324 
+22229 
+6 
+5 
+78.6 
+0 MCI 
+Male 
+13 White 
+Married 
+。
+99 
+141 
+28 
+984369 
+19957 
+6984 
+3545 
+17237 
+18279 
+7 
+6 
+77.1 
+0 Normal 
+Female 
+17 White 
+Divorced 
+。
+62 
+76 
+29 
+1235902 
+20636 
+9193 
+4306 
+20189 
+19815 
+8 
+7 
+65 
+0 MCI 
+Male 
+10 White 
+Divorced 
+10 
+15 8 
+26 
+1079100 
+28737 
+6877 
+4050 
+15501 
+18906 
+9 
+8 
+97 3 
+0 MCI 
+Male 
+19 White 
+Married 
+2 
+77 
+17 9 
+28 
+1127345 
+23773 
+7255 
+2929 
+19727 
+21151 
+10 
+9 
+86.3 
+O Normal 
+Female 
+20 White 
+Widowed 
+。
+5.6 
+8.8 
+30 
+1006684 
+20319 
+7049 
+3576 
+15787 
+18956 
+11 
+10 
+76.4 
+0 Normal 
+Female 
+15 White 
+Widowed 
+。
+7 
+14 3 
+29 
+1051460 
+42639 
+6833 
+3353 
+20703 
+19215 
+12 
+11 
+65 
+1 Dementia 
+Male 
+19 White 
+Married 
+。
+29 9 
+36 8 
+24 
+994114 
+26043 
+6822 
+3583 
+17324 
+17712 
+13 
+12 
+96.7 
+0 MCI 
+Male 
+16 White 
+Married 
+。
+35 
+7 
+28 
+1036430 
+62313 
+6748 
+2954 
+19946 
+18344 
+14 
+13 
+65 
+1 Dementia 
+Female 
+16 White 
+Married 
+。
+26 1 
+40 
+25 
+809068 
+54442 
+4780 
+1448 
+10880 
+11201 
+15 
+14 
+78.2 
+0 Normal 
+Male 
+13 White 
+Married 
+10 5 
+22 8 
+30 
+1158476 
+38121 
+16 
+15 
+851 
+0 Dementia 
+Male 
+15 White 
+Married 
+1 
+8 
+151 
+24 
+1108592 
+35248 
+17 
+16 
+87 3 
+0 MCI 
+Female 
+17 White 
+Married 
+。
+4 1 
+87 
+29 
+1069276 
+48728 
+7538 
+5042 
+15793 
+20129 
+-
+Death_time 변수는 사망 시 나이 Age로 표기하기도 함 

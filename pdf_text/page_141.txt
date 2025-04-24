@@ -1,0 +1,12 @@
+·합수 
+e 함수의활용 
+O 함수메서의 input은 여러 인자가 가능함 
+O 함수메서의 output은 return 혹은 생략이 가능함 
+- 예제 
+myfn <- function(x, y) { 
+return(x + y) 
+} 
+myfn2 <- function(x, y) { 
+x+y 
+} 
+'（-’강원LRS공유대악 

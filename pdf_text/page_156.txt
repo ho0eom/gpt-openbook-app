@@ -1,0 +1,11 @@
+.R의 작업 환경 
+(011H 키지 다루기 
+0 패키지 설지 및 불러오기 
+- 예제 
+install.packages("ggplot2") # 설 지 
+library(ggplot2) # 불러오기 
+0 패키지의 함수는 패키지 고유의 environment를 
+가지고 있음(Package environment) 
+> global environment에서 수정된 함수가 package 안으 
+함수메 영향을 미지면 안되도록 구성됨 
+'（-’강원LRS공유대악 

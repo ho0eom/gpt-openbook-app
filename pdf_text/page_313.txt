@@ -1,0 +1,21 @@
+·실습매재 
+- 예제 (8) R 코드 
+#상자그림 겹쳐 그리기 
+log_brain <- log(brain) 
+ymax <- max(log_brain, na.rm = TRUE) 
+ymin <- min(log_brain, na.rm = TRUE) 
+'（-’강원LRS공유대악 
+boxplot(log_brain$Ventricles, xlim = c(O, 4), ylim = c(ymin, ymax), col = rgb(153/255,0,0,0.5), horizontal = TRUE) 
+boxplot(log_brain$Hippocampus, ylim = c(ymin, ymax), col = rgb(O,153/255,0,0.5), add = TRUE, horizontal = TRUE) 
+boxplot(log_brain$WholeBrain, ylim = c(ymin, ymax), col = rgb(O,O, 153/255,0.5), add = TRUE, horizontal = TRUE) 
+boxplot(log_brain$Entorhinal_cortex, ylim = c(ymin, ymax), col = rgb(33/255,22/255,33/255,0.5), add = TRUE, horizontal = 
+TRUE) 
+boxplot(log_brain$Fusiform_gyrus, ylim = c(ymin, ymax), col = rgb(53/255,54/255,233/255,0.5), add = TRUE, horizontal = 
+TRUE) 
+boxplot(log_brain$Middle_temporal_gyrus, ylim = c(ymin, ymax), col = rgb(20/255,70/255,100/255,0.5), add = TRUE, 
+horizontal = TRUE) 
+legend("topleft", legend = c("Ventricles", "Hippocampus", "WholeBrain", "Entorhinal_cortex", "Fusiform_gyrus", 
+" Middle_temporal_gyrus") , 
+col = c(rgb(153/255,0,0,0.5), rgb(O, 153/255,0, 0.5), rgb(O,O,153/255, 0.5), rgb(33/255,22/255,33/255,0.5), 
+rgb(53/255,54/255,233/255,0 .5) , rgb(20/255,70/255, 100/255,0.5)) , 
+lty = rep(1, 6), lwd = 4) 

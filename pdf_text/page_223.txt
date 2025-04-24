@@ -1,0 +1,8 @@
+.[R] 상자그림 
+e[-ti 이터의 특정 카테로리 별 상자그림을 그리고자 할 때는 
+formula형태로 기입이 가능함 
+- 예제 
+boxplot(count ~ spray, data = lnsectSprays, col = "lightgray") 
+boxplot(decrease ~ treatment, data = OrchardSprays, col = 
+"bisque", log = "x", horizontal=TRUE) 
+'（-’강원LRS공유대악 

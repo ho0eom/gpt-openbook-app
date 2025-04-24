@@ -1,0 +1,11 @@
+·합수 
+e 함수의 개요 
+0 R 에서 함수를 만들 때에는 function을 사용함 
+” 예제 
+# Define a function 
+myfn <- function(x) { 
+return(x + 3) 
+} 
+# run the function 
+myfn(2) # input (x = 2) and output (x + 3) 
+'（-’강원LRS공유대악 

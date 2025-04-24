@@ -1,0 +1,9 @@
+·실습매재 
+- 예제 (1) R 코드 
+# 빈도표와 도수분포표 
+tab <- table(dementia$Sex, dementia$Status) 
+tab_dat <- as.data.frame(tab) 
+colnames(tab_dat) <- c("Sex", "Status", "Freq") 
+barplot(Freq ~ Sex + Status, data = tab_dat, legend.text = c("Female", "Male"), 
+args.legend = list(x = "topleft", box.lty = O)) 
+'（-’강원LRS공유대악 

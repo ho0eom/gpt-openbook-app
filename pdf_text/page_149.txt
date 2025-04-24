@@ -1,0 +1,13 @@
+많은주의가요하므로되도록사용하지말것!myfn <-function(x) {y <<-3; x}myfn(2)y예제
+·합수 
+e 함수와 environment 
+0 Super assignment ¢ 
+> ‘<＜－’를 활용하여 하위의 environment에서 정의된 값을 
+상위의 environment에도 저장함 
+- 예제 
+myfn <- function(x) { 
+y <<- 3; X 
+} 
+myfn(2) 
+y 
+'（-’강원LRS공유대악 

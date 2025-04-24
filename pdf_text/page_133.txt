@@ -1,0 +1,35 @@
+• 
+[ilOIEi 프레임 
+(0[-11 이터 가져오기 
+0 R 에서 기본으로 제공하는 테이터셋의 종류(Built-in Data sets) 
+> https://stat.ethz.ch/R-manual/R-
+devel/library/datasets/html/OOlndex.html 
+• DESCRIPTION file 
+datasets -접쇼핼 
+止뿌 
+al1mI|es 
+AlrPass e n q卑
+후소 
+anscombe 
+attenu 
+attitude 
+austres 
+The R Datasets Package 
+令정 
+Documentation for package 
+'datasets· 
+ve 「sion 4.3.0 
+He Ip Pages 
+A 요 요 Q £ E 旦l i L M H Q E Q R 요 I ll \f.W 
+The R Datasets Package 
+-- A --
+Ability and Intelligence Tests 
+Passenger Miles on Commercial US Airlines, 1937-1960 
+Monthly Airline Passenger Numbers 1949-1960 
+New York Air Quality Measurements 
+Anscombe's Quartet of 'Identical' Simple Linear Regressrons 
+The Joyner-Boore Attenuation Data 
+The Chatterjee-Price Attitude Data 
+Quarterly Time Series of the Number of Australian Residents 
+_솔 이 미 지 줄저 : https://stat.ethz.ch/R-manua1/R-devel/library/datasets/html/DOIndex.html 
+'（-’강원LRS공유대악 

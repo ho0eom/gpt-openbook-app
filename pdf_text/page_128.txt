@@ -1,0 +1,11 @@
+• 
+[ilOIEi 프레임 
+e[-ti 이터 프레임의 활용 
+O 테이터 프레임의 각 객체에 이름 부여가 가능함 
+- 예제 
+, 테이터 프레임 생성 서에 부여 
+dat <- data.frame(gender = c(11female11, 11male11, 
+11male11, 11female11), age = c(53.5, 36.3, 66.9, 20.3), 
+grade = c(“A", “C", “A", "B'’)) 
+dat 
+'（-’강원LRS공유대악 

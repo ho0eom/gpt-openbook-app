@@ -1,0 +1,16 @@
+•Sex,Race,Education[뇌와관련된변수]
+•Ventricles, Hippocampus, Whole Brain, Entorhinal cortex, Fusiform gyrus, Middle temporal gyrus
+• 
+:1:I DH 빅 [1l0l E·l 
+- 예제 
+지매 빅테이터에서의 다음 변수들의 형태를 쿠분하여 보자. 
+[인구학적 변수] 
+Sex, Race, Education 
+[뇌와 관련된 변수] 
+Ventricles, Hippocampus, Whole Brain, Entorhinal cortex, Fusiform 
+gyrus, Middle temporal gyrus 
+질적~ 양적 
+二이산 
+순서 
+연속 
+'（-’강원LRS공유대악 

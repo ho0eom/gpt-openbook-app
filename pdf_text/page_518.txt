@@ -1,0 +1,29 @@
+𝑋~𝑁𝜇, 𝜎2 , 𝑓𝑥=
+1
+𝜎2𝜋, exp −
+𝑥−𝜇2
+2𝜎2# R codecurve(dnorm(x), xlim = c(-3, 3), xlab = "", ylab = "")
+·정규분포 
+(0[R] 정규분포 
+0 정규분포 
+'（-’강원LRS공유대악 
+( 
+、
+.
+J
+( ) -r ( ( ) ) 
+P.o 
+E.o 
+z.o 
+; 
+웅 
+-3 
+_, 
+-1 
+0 
+1 
+2 
+3 
+# R code 
+curve(dnorm(x), xlim = c(-3, 3), 
+xlab = 1111, ylab = 1111) 

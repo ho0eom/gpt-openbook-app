@@ -1,0 +1,9 @@
+.R의 작업 환경 
+(0R의 기능 
+0 R은 컴퓨터의 특정 공간에 위지한 파일을 유기적으로 
+불러오고 저장하는 기능을 함 
+> 작업 디렉토리(working directory) 의 설정이 가능함 
+- 예제 
+getwd() 
+setwd("c:WdatasetsWmydataW") 
+'（-’강원LRS공유대악 

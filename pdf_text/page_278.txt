@@ -1,0 +1,50 @@
+.llDH 빅[1l0lE·l 
+'（-’강원LRS공유대악 
+(0l1DH 빅테이터의 변수 
+변수 
+| 
+설명 
+| 
+변수 
+| 
+설명 
+ID 
+개제에 부여된 번호 
+ADAS11 
+지매 인지 평가 
+(11 개의 소검사) 
+Age 
+사망 혹은 관측 종료 시 UOI 
+ADAS13 
+지매 인지 평가 
+(13 개의 소검사) 
+Death 
+사망여부(1=사망, 0=생존) 
+MMSE 
+Mini-Mental State Exam 
+으로 인지 기능평가 
+Status 
+관측된 지매상태 
+Ventricles 
+뇌실(뇌척수액 생산) 
+Sex 
+성별 
+Hippocampus 
+해U 卜 
+(새로운 사실을 학습하고 기억) 
+Education 
+교육년수 
+Whole Brain 
+전뇌 
+Race 
+인종 
+Entorhinal cortex 
+뇌피질(기억파 관련) 
+Marital status 
+혼인상태 
+Fusiform gyrus 
+방주상회(얼굴 인식 관련) 
+APOE4 
+대립유전자APOEe4 의 수 
+Middle temporal gyrus 
+중측두회(언어관련) 

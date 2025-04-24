@@ -1,0 +1,13 @@
+• 
+[ilOIEi 프레임 
+e[■11 이터 프레임의 개요 
+O 테이터 프레임은 행렬과 비슷한 형태지만 다른 형태의 
+벡터틀을 모아 눌을 수 있는 객체임 
+기:11 이터 입력 시 주로 사용함(테이터셋 형식) 
+D data.frame함수를 이용하여 객체를 저장함 
+” 예제 
+gender <- c("female", "male", "male", "female") 
+age <- c(53.5, 36.3, 66.9, 20.3) 
+grade <- c("A", "C", "A", "B") 
+data.frame(gender, age, grade) 
+'（-’강원LRS공유대악 

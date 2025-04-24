@@ -1,0 +1,11 @@
+·실습매재 
+- 예제 (11) 코드 
+# 임의주줄 후 |owess curve 적용 
+with_lowess <- function(x,y) { 
+points(x, y, pch = 19) 
+lines(lowess(x, y), col = "blue") 
+} 
+subdat2_scale_noNA <- na.omit(subdat2_scale) 
+pairs(subdat2_scale_noNA, panel = with_lowess, 
+lower.panel = NULL) 
+'（-’강원LRS공유대악 

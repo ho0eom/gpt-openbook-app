@@ -1,0 +1,15 @@
+This book is about exploratory data analysis, about looking 
+at data to see what it seems to say. It concentrates on 
+simple arithmetic and easy-to-draw pictures. It regards 
+whatever appearances we have recognized as partial 
+descriptions, and tries to look beneath them for new insights. 
+Its concern is with appearance, not with confirmation.
+- Exploratory Data Analysis의서문
+• 
+[ilOIEi 분석 
+e 탐색적 테이터 분석의 역사 
+0 197_7 년 
+튜키(John W. Tukey) 는 탐색적 테이터 분석에서의 
+젓 저서인 "Exploratory Data Analysis” 를 발간람 
+_솔 이미지 줄저 : https://en.wikipedia.org/wiki/John_Tukey 
+'（-’강원LRS공유대악 

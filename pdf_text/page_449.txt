@@ -1,0 +1,9 @@
+·실습매재 
+- 예제 (9) 코드 
+# 산점도행렬 
+dat2 <- dementia[c("ADAS11 ", "ADAS1 3", "Ventricles", 
+"Hippocampus", "Entorhinal_cortex", "Fusiform_gyrus", 
+"Middle_temporal_gyrus")] 
+dat2_scale <- scale(dat2) 
+pairs(dat2_scale, lower.panel = NULL) 
+'（-’강원LRS공유대악 

@@ -1,0 +1,53 @@
+~ 
+R colors(R 이1 서의 색깔) 
+(0R 이1 서는 다양한 색깔을 제공합 
+0 참고할만한사이트 
+> http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+. 
+........_ . 
+,colo 『
+name 
+,collOll' 
+name 
+white 
+burlywood4 
+al'ioeblue 
+cadetb[ue 
+a nt떠 Uewhite 
+c.adeitblue1 
+anliqueWhite1 
+cadeiblue2 
+anliquewh.ite2 
+cadeitblue3 
+anliqueWhite3 
+cadeiblue4 
+anliquewh.ite4! 
+chartreuse 
+• 
+II 
+aquamarine 
+chartreuse1 
+ine1 
+aha rtreuse2 
+• 
+11 
+aquamarine2 
+chartreuse3 
+• 
+aquamarine3 
+ohartreuse4 
+_솔 이미지 줄저 : http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf 

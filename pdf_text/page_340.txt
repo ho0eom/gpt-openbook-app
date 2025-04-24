@@ -1,0 +1,17 @@
+• 
+[R] 중심위지매 관한 척도 
+e 결측값의 저리 
+0 mean, colMeans, median 사용 시 결측지가 
+있을 경우메는 na.rm = TRUE를 설정함 
+” 예제 
+다음 자료에서 평군파 중앙값을 쿠해보자. 
+[168, 170, 177, NA, 165] 
+x <- c(168, 170, 177, NA, 165) 
+mean(x, na.rm = TRUE) 
+median(x, na.rm = TRUE) 
+> x <- c(168, 170, 177, NA, 165) 
+> mean(x, no.rm = TRUE) 
+[1] 170 
+> median(x, no.rm = TRUE) 
+[디 169 
+'（-’강원LRS공유대악 

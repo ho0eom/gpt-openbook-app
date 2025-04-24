@@ -1,0 +1,13 @@
+.[R] 평행좌표그림 
+(01attice 라이브러리매 있는 parallelplot함수U Ggally 라이브러리매 있는 
+ggparcoord함수를 이용할 수 있음 
+- 예제 
+#Way 1 
+library(lattice) 
+parallelplot(~iris[1 :4], iris, groups = Species, 
+horizontal.axis = FALSE, scales = list(x = list(rot = 90))) 
+#Way2 
+#install.packages("Ggally") # 죄조 설지 시에만 실행 
+library(GGally) 
+ggparcoord(iris, columns=1 :4, groupColumn = 5) 
+'（-’강원LRS공유대악 

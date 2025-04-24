@@ -1,0 +1,13 @@
+• 
+[ilOIEi 프레임 
+e[-ti 이터 가져오기 
+0 R 에서는 테이터 프레임 형태로 다양한 테이터를 제공합 
+> data(iris) 
+> head(iris) 
+> iris$Species 
+_ 
+data(iris) 는 iris [i| 이터를 R환경으로 불러오는 기능이므로 아무 결파도 줄력하지 않고, 
+head(iris) 는 테이터의 일부분만 보여주니 
+iris를 전제 테이터를 보려면 iris를 
+R 에 입력해야합 
+'（-’강원LRS공유대악 

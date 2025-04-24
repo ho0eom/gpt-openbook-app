@@ -1,0 +1,46 @@
+·실습매재 
+'（-’강원LRS공유대악 
+- 예제 (5) 코드 
+> # Hippocampus 
+> subdat <- dementia[- ids$Hippocampus , c( "APOE4" , "Hippocampus ")] 
+> aggregate(subdat$Hippocampus, by = list(subdat$APOE4), FUN = function(x) mean(x, no . rm = TRUE)) 
+Group .1 
+x 
+1 
+0 7055 . 709 
+2 
+1 6597 . 861 
+3 
+2 6187.191 
+> # WholeBrain 
+> subdat <- dementia[-ids$WholeBrain, c("APOE4" , "WholeBrain")] 
+> aggregate(subdat$WholeBrain, by = list(subdat$APOE4), FUN = funchon(x) mean(x, no . rm = TRUE)) 
+Group.l 
+x 
+1 
+0 1027748 
+2 
+1 1015105 
+3 
+2 1012391 
+> # Entorhi.naLcortex 
+> subdat <- dementi.a [-i.ds$Entorhi.nal_cortex , c( "APOE4" , " Entorhi.nal_cortex" )] 
+> aggregate(subdat$Entorhi.nal_cortex, by = li.st(subdat$APOE4) , FUN = functi.on(x) mean(x, na.rm = TRUE)) 
+Group.1 
+1 
+0 3640 . 581 
+2 
+1 3319 . 216 
+3 
+2 3183.294 
+> # Fusiform_gyrus 
+> subdat <- dementia [-ids$Fusiform_gyrus, c("APOE4", "Fusiform_gyrus ")] 
+> aggregate(subdat$Fusiform_gyrus, by = li.st(subdat $APOE4), FUN = functi.on(x) mean(x, na . rm = TRUE)) 
+Group.1 
+x 
+1 
+0 17459.29 
+2 
+1 16892.85 
+3 
+2 16809 . 85 

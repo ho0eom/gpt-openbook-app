@@ -1,0 +1,15 @@
+·실습매재 
+- 예제 (5) R 코드 
+# 지매상태별 전뇌크기의 분포(표준화) 
+wholebrain_scale <- scale(dementia$WholeBrain) 
+normal_scale <- wholebrain_scale[dementia$Status == "Normal"] 
+MCl_scale <- wholebrain_scale[dementia$Status == "MCI"] 
+Dementia_scale <- wholebrain_scale[dementia$Status == 
+Dementia"] 
+hist(normal_scale, main = "Normal", xlab = "WholeBrain", xlim = 
+c(-5, 5), freq = FALSE) 
+hist(MCl_scale, main = "MCI", xlab = "WholeBrain", xlim = c(-5, 5), 
+freq = FALSE) 
+hist(Dementia_scale, main = "Dementia", xlab = "WholeBrain", xlim 
+= c(-5, 5), freq = FALSE) 
+'（-’강원LRS공유대악 

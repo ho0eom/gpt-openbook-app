@@ -1,0 +1,25 @@
+. R 설지하기 
+(0 http://www.r-project.org/ 
+O 플랫폼에 맞게 설지하기 
+DownIoad and InstaI I R 
+Precompiled binary d istributions of the base system and contributed packages, Windows and Mac users most likely want one of these versions of R· 
+1 • 
+Download R for Linux 三Fedora/ Redhal, ~). 1 
+• Download R for macOS 
+• Download R for W, ndows 
+R is part of many Li nux distributio ns, you should check with your Linux package management system in addition to the link above. 
+Source Code for all Platforms 
+Windows a nd Mac users most likely want to download the precompiled binaries listed in the uppe r box, not the source code. The sou rces have to be compiled 
+before you ca n use them. If you do not know what this means, you probably do not want to do it! 
+• The latest release (2022 -10-31, Innocent and Trusting) ~~ 
+read what's new in the latest version. 
+• Sources of 요회~ h a and beta releases (daily snapshots, created only in time periods befo re a planned 『e lease )
+• Daily snapshots of current patched and develo pment versions are available here Please read about new features and bug....fi= before fili ng correspond ing 
+featu re requests or bug reports. 
+• So urce code of o lder versions of R is available here. 
+• Contributed extension 12.s따육g즈 
+Questions About R 
+• If you have questions about R like how to download and install the softwa re, o『what the license terms are, please read our answers to fre[:J~~ 
+_q~ before you send an email 
+_솔 이미지 줄저 : http://www.r-project.org/ 
+'（-’강원LRS공유대악 

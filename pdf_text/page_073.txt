@@ -1,0 +1,24 @@
+• 
+R Work Environment 
+| .. .C~kI" 'f, 
+',R 
+,오 MK r_L+ `:: -L…· * 'p 
+R version 4 . 2 . 2 (2022- 10- 31 ucrt) -- "Innocent and Trusting " 
+Copyright (C) 2022 The R Foundation fo r Statistical Computing 
+Platform : x86_64 - w64 - mingw32/x64 (64 - bit) 
+R is free software and comes with ABSOLUTELY NO WARRANTY . 
+You are welcome to redistribute it under certain conditions . 
+Type ' license ( ) ' or ' licence () ' fo r di stri buti on de t ai l s . 
+R is a collaborative project with many contributors . 
+Type ' ~ontribut or s ( ) _' fo; _ more i nformation a~d 
+' citation ( ) ' on how to cite R or R packages i n publicat ions . 
+Type ' demo ( ) ' for some demos , ' help () ' for on- line help, or 
+' help . start() ' for an HTML browser i nterface to help . 
+Type ' q() ' to quit R. 
+> I 
+e 콘솔창 
+0 명령어틀 수행하는 장소임 
+0 01 곳에 입력된 명령어는 
+'（-’강원LRS공유대악 
+R 엔진으로 전달되어 계산되고, 
+그 결라 값을 다시 출력해주게 됨 

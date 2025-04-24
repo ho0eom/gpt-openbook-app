@@ -1,0 +1,14 @@
+·실습매재 
+'（-’강원LRS공유대악 
+- 예제 (7) R 코드 
+#상자그림 
+brain <- dementia[c("Ventricles", "Hippocampus", "WholeBrain", "Entorhinal_cortex", 
+" Fusiform_gyrus" , " Middle_temporal_gyrus")] 
+# scale 변환과 
+|og 변환 후의 상자그림 
+par(mfrow = c(2, 1 )) 
+boxplot(scale(brain), main = "Standardization") 
+boxplot(log(brain), main = "Log transformation") 
+# log 변환 후 상자그림 
+dev.off() 
+boxplot(log(brain), main = "Log transformation") 

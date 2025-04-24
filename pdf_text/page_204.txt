@@ -1,0 +1,22 @@
+.[R] 히스토그램 
+강원LRS공유대악 
+e 수지형변수매 적용하는 
+6| 스토그램은 
+hist함수를 이용함 
+” 예제 
+data(trees) 
+trees 
+hist(trees$Height) 
+Histogram of trees$Height 
+10 
+86420 
+AouanbaJLL 
+60 
+65 
+70 
+75 
+80 
+trees$Height 
+5 
+-_8 
+90 

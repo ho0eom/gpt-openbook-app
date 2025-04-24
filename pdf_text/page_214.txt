@@ -1,0 +1,15 @@
+.
+[R] 즐기 잎 그림 
+(0stem함수를 이용하여 즐기 잎 그림 생성 
+O scale 인수를 이응하여 줄기와 잎 크기 변경이 가능함 
+- 예제 
+I stem(trees$Height, scale = 0.5) 
+> stem(trees$Hei ght, scale = 0.5) 
+The deci.mal poi.nt i s 1 di.gi.t(s) to the right of the 
+6 I 34 
+6 I 569 
+7 I 012244 
+7 I 55566789 
+8 I 000001123 
+8 I 567 
+강원LRS공유대악 

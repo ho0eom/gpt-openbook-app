@@ -1,0 +1,7 @@
+·실습매재 
+'（-’강원LRS공유대악 
+- 예제 (6) R 코드 
+#상자그림 
+brain <- dementia[c("Ventricles", "Hippocampus", "WholeBrain", "Entorhinal_cortex", 
+" Fusiform_gyrus" , " Middle_temporal_gyrus")] 
+boxplot(brain) 

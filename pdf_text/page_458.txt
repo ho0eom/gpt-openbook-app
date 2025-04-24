@@ -1,0 +1,7 @@
+·실습매재 
+-
+예제 (12) 코드 
+# 상관행렬과 공분산행렬 
+res_cor <- cor(dat2, use = "pairwise.complete.obs") 
+round(res_cor, 2) 
+'（-’강원LRS공유대악 

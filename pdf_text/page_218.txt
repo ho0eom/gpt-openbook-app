@@ -1,0 +1,16 @@
+.[R] 상자그림 
+(0boxplot 함수를 이용하여 상자그림 생성 
+” 예제 
+boxplot(trees$Height, horizontal = TRUE) 
+I· ............. [I]•··············I 
+l 
+65 
+7_。
+l 
+75 
+상자그림 
+l 
+80 
+l 
+85 
+'（-’강원LRS공유대악 

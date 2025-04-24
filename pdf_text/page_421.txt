@@ -1,0 +1,17 @@
+·실습매재 
+- 예제 (2) 코드 
+# 방법 1 
+my_CV <- function(x, na.rm = FALSE) { 
+sd(x, na.rm = na.rm)/mean(x, na.rm = na.rm) 
+} 
+CV_ADAS11 <- my_CV(dementia$ADAS11, na.rm = TRUE) 
+CV_ADAS1 3 <- my_CV(dementia$ADAS1 3, na.rm = TRUE) 
+CV_MMSE <- my_CV(dementia$MMSE, na.rm = TRUE) 
+res <- c(ADAS11 = CV_ADAS11, ADAS1 3 = CV_ADAS1 3, 
+MMSE = CV MMSE ) 
+round(res, 3) 
+#방법 2 
+res2 <- apply(dementia[,c("ADAS11 ", "ADAS1 3", "MMSE")], 2, 
+function(x) my_CV(x, na.rm = TRUE)) 
+round(res2, 3) 
+'（-’강원LRS공유대악 

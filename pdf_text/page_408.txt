@@ -1,0 +1,25 @@
+읊壅!J pairs합수의 탈응 
+(0pairs함수매 다른 기법들도 주가 가능함 
+- 예제 
+with_lowess <- function(x,y) { 
+points(x, y, pch = 19) 
+lines(lowess(x, y), col = 11blue11) 
+} 
+• 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+• 
+• 
+pairs(trees, panel = with_lowess, lower.panel = NULL) 

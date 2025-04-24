@@ -1,0 +1,41 @@
+ 
+사분위수 구하는 방법은 한가지가 OtU 다!? 
+e 통계 프로그램 R 이1 서 사용되는 다양한 방법 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+• 
+Type 4 
+m = 0. Pk = ~n k . That is, linear interpolation of the empirical cdf. 
+Type 5 
+m = 1/ 2. p k == ~ — 
+. 
+That is a piecewise linear function where the knots are the values midway through the steps of the 
+empirical cdf. This is popular amongst hydrologists. 
+Type 6 
+m = p. Pk = ¾i-- Thus Pk = E [F( x니] This is used by Minitab and by SPSS 
+Type 7 
+m = 1 — 
+P· Pk = 둔. In this case, Pk = mode [F(야 )]. This is used by S. 
+Type 8 
+m = (p + 1)/ 3. p k =n 
+k-+11//33 Then Pk ~ med ian [F(야 )]. The resulting quantile estimates are approximately median-
+unbiased regardless of the distribution of x. 
+Type 9 
+m = p / 4 + 3/ 8Pk = — 
+n 
+k-+l3//84 The resulting quan ”tile estimates are approximately unbiased for the expected order statistics 
+if x is normally distributed. 
+• 
+• 

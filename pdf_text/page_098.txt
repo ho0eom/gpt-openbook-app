@@ -1,0 +1,28 @@
+·벡터 
+e 벡터간의연산 
+O 두 벡터 간 연산을 수행할 수 있음 
+> 벡터와 스칼라의 연산이 아닌 경우메는 길이가 같게 해야 합 
+0 연산의 종류 
+Operator 
+Description 
+I Operator 
+Description 
++ 
+addition 
+< 
+less than 
+subtraction 
+<= 
+less than or equal to 
+* 
+multiplication 
+> 
+greater than 
+I 
+division 
+>= 
+greater than or equal to 
+^ 
+exponentiation 
+exactly equal to 
+강원LRS공유대악 

@@ -1,0 +1,14 @@
+비계량형변수(Nonmetric variable)
+계량형변수(Metric variable)변수의형태
+·변수의형태 
+e 질적 변수(Qualitative variable) 궁 
+0 명목형 변수(Nominal variable) 
+> 이름이나 문자로 나타내는 변수 
+0 순서형 변수(Ordinal variable) 
+> 이름이나 문자로 나타내는 변수나 순서가 존재 
+e 양적 변 수 (Quantitative variable) 궁 
+0 이산형 변수(Discrete variable) 
+> 연속성이 없는 값으로 나타내는 변수 
+0 연속형 변수(Continuous variable) 
+> 연속성이 있는 값으로 나타내는 변수 
+'（-’강원LRS공유대악 

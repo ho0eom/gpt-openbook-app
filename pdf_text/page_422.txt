@@ -1,0 +1,24 @@
+· 실습매재 
+- 예제 (2) 코드 
+> # 방법 1 
+> my_CV <- function(x , na . rm = FALSE) { 
++ 
+sd(x, no.rm = no.rm)/ meon(x, no . rm = no.rm) 
++ } 
+> CV_ADASll <-
+my_CV(dementio$ADAS11, no.rm = TRUE) 
+> CV_ADAS13 <- my_(V(dementio$ADAS13, no.rm = TRUE) 
+> CV_MMSE <- my_CV(dementio$MMSE, no . rm = TRUE) 
+> res <- c(ADASll = CV_ADASll, ADAS13 = CV_ADAS13, MMSE = CV_MMSE) 
+> round(res, 3) 
+ADASll ADAS13 
+MMSE 
+0.639 0 .583 0.096 
+> 
+> # 방법 2 
+> res2 <- apply(dementi.a [ , c( "ADASll" , "ADAS13" , "MMSE" )J , 2 , functi.on(x) my_CV(x , na . rm = TRUE)) 
+> round(res2, 3) 
+ADASll ADAS13 
+MMSE 
+0.639 0.583 0.096 
+'（-’강원LRS공유대악 

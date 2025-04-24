@@ -1,0 +1,30 @@
+[Hint] ?boxplot을실행하면도움말이나오며, 
+마지막에예제들이나오는데관련된기능을찾아적용해보자.
+·실습 
+매재 
+강원LRS공유대악 
+- 예제 (8) 
+그려진 모든 상자그림을 한 열로 나열하는 방법을 잦아보자. 
+-
+Ventricles 
+-
+Hippocampus 
+-
+WholeBrain 
+-
+Entorhinal_cortex 
+-
+Fusiform_gyrus 
+-
+M i dd l e_tempora l_gy 『US
+_타-－－－－－돈B—-ffi-
+----------------1 
+0 4 - －마--4@ 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 

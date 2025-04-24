@@ -1,0 +1,11 @@
+• 
+[ilOIEi 프레임 
+'（-’강원LRS공유대악 
+e[-ti 이터 내보내기 
+0 R 에서 생성된 객체를 csv나 txt 파일로 내보낼 수 있음 
+- 예제 
+dat <- data.frame(gender = c(11female11, 11male11, 11male11, 11female11), age = 
+c(53.5, 36.3, 66.9, 20.3), grade = c(11A11, 11C11, 11A11, 11811)) 
+write.table(dat, file = 11mydata.txt11) # txtIIJ-일로 저장 
+write.csv(dat, file = 11mydata.csv11) # csvIIJ-일로 저장 
+getwd() # Check the working directory (files are in it) 

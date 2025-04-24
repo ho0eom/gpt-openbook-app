@@ -1,0 +1,7 @@
+.R의 작업 환경 
+'（-’강원LRS공유대악 
+(011H 키지 라이브러리 
+O 유용한 R package들 
+MASS 
+ggplot2 
+survival 

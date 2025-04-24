@@ -1,0 +1,20 @@
+• 
+[R] 중심위지매 관한 척도 
+e 결측지 저리 시 주의사항 
+O my_mode함수를 colMeans와 같이 전제 data frame 메 
+적용할 수 있도록 수정하여 mtcars 테이터에 적응해보자. 
+my_mode3 <- function(dat) { 
+p <- ncol(dat) 
+} 
+modes <- list() 
+for (k in 1:p) { 
+} 
+x <- dat[,k] 
+x <- na.omit(x) 
+x_unique <- unique(x) 
+x_len <- c() 
+for (i in 1 :length(x_unique)) x_len[i] <- sum(x == x_unique[i]) 
+modes[[k]] <- x_unique[x_len == max(x_len)] 
+names(modes) <- colnames(dat) 
+return(modes) 
+'（-’강원LRS공유대악 

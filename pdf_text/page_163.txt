@@ -1,0 +1,31 @@
+80 ≤𝑥< 90B
+70 ≤𝑥< 80C
+60 ≤𝑥< 70D60 미만F
+·조건문if 
+e 조건문을 활용한 점수 등급 매기기 (2) 
+- 예제 
+grading2 <- function(score) { 
+if (score < 60) { 
+grade <- "F" 
+} else if (score < 70) { 
+grade <- "D" 
+} else if (score < 80) { 
+grade <- "C" 
+} else if (score < 90) { 
+grade <- "B'' 
+} else { 
+grade = "A" 
+} 
+return(grade) 
+} 
+'（-’강원LRS공유대악 
+score 
+| 
+grade 
+90 이상 
+A 
+B 
+C 
+D 
+60 미만 
+F 

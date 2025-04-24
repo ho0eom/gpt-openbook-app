@@ -1,0 +1,22 @@
+.
+[R] 막대그림 생성 
+(0 barplot의 활용 
+0 barplot은 각 카테고리의 수준별 빈도를 쉽게 도식화할 때 사용되기도 함 
+'（-’강원LRS공유대악 
+- 예제 
+# Formula method 
+barplot(cbind(Employed, Unemployed) ~ Year, data = longley) 
+00SOOVOOCOOCOOLC 
+1947 
+1948 
+1949 
+1950 
+1951 
+1952 1953 
+1954 
+1955 1956 
+1957 
+1958 1959 
+1960 1961 
+1962 
+Year 

@@ -1,0 +1,14 @@
+• 
+[R] 도수분포표 생성 
+e 나만의 도수분포표 만들기 
+0 도수, 상대도수, 누적도수, 상대누적도수를 포함하는 
+도수분포표를 생성하는 함수 만들기 
+my_table <- function(dat) { 
+frequency <- table(dat) 
+} 
+rfrequency <- prop.table(frequency) 
+cfrequency <- cumsum(frequency) 
+crfrequency <- cumsum(rfrequency) 
+cbind(freq = frequency, r.freq = rfrequency, 
+c.freq = cfrequency, er_freq = crfrequency) 
+'（-’강원LRS공유대악 

@@ -1,0 +1,6 @@
+[Hint] boxplot함수에서formula로적용하여그릴수있다.
+·실습매재 
+- 예제 (9) R 코드 
+# 지매 상태별 Hippocampus 상자그림 (방법 2) 
+boxplot(log(Hippocampus) ~ Status, data = dementia) 
+'（-’강원LRS공유대악 

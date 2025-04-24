@@ -1,0 +1,38 @@
+• 
+:1:I DH 빅 [1l0l E·l 
+- 예제 
+'（-’강원LRS공유대악 
+변수 APOE4 는 지매에 관련된 유전자인 Apolipoprotein E 의 대립유전자 중 APOE e4 의 
+개수이다(대립유전자는 부모로부터 하나씩 받기 때문에 종 2 개까지 가능하다). 
+Rstudio 에서 변수 Status 와 APOE4 를 이용하여 분발표를 작성해보자. 
+APOE4 의 수와 지매와의 관련성을 대략적으로 파악해보자. 
+- 예제의 R 코드 
+res <- table(APOE4 = dementia$APOE4, status = dementia$Status) 
+res 
+round(prop.table(res, margin = 1 ), 2) 
+> res 
+status 
+APOE4 Dementi.a MCI Nor mal 
+0 
+72 202 
+455 
+1 
+112 119 
+266 
+2 
+50 
+31 
+55 
+> round(res_prop, 2) 
+status 
+APOE4 Dementi.a 
+MCI Normal 
+0 
+0 . 10 0 . 28 
+0 . 62 
+1 
+0.23 0.24 
+0.54 
+2 
+0.37 0.23 
+0.40 

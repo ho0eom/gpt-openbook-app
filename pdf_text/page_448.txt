@@ -1,0 +1,12 @@
+[Hint] scale과pairs함수를이용해야한다.
+(?scale으로도움말확인)
+·실습매재 
+- 예제 (9) 
+뇌에 관련된 변수와 인지기능에 관한 변수 중 다음 변수들을 
+이용하여 산점도 행렬을 구하여라. 
+(단, 변수들을 표준화할 것) 
+ADAS11 / ADAS1 3 / Ventricles / Hippocampus / 
+Entorhinal_cortex / Fusiform_gyrus / 
+M idd le_temporal_gyrus 
+땅 
+'（-’강원LRS공유대악 

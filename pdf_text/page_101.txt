@@ -1,0 +1,14 @@
+·행렬 
+e 행렬의 개요 
+O 행렬은 행파 열을 가진 2자원으로 된 객체임 
+> matrix함수를 이용함 
+> R 에서는 행렬은 2 자원으로 표현된 벡터로, 첫 번째 열 둬어 
+두 번째, 세 번째 열이 붙은 형태로 이해할수 있음 
+O 행렬의 생성 
+> 행렬에 사용될 모든 값을 벡터 형식으로 지정함 
+> 용법 : matrix(data, nrow, ncol, byrow = FALSE) 
+| "byrow" argument에 대한 주가설명 ` 
+matrix함수의 byrow는 행렬을 열 기준으로 채워 나갈 것인지(byrow = FALSE) 
+혹은 행 기준으로 채워 나갈 것인지(byrow = TRUE) 를 정하는 argument 이며, 
+기본적으로 행렬은 열 기준으로 값들을 채워나감(즉, defaul 는 FALSE) 
+강원LRS공유대악 

@@ -1,0 +1,13 @@
+·변수의형태 
+e 질적 변수(Qualitative variable) 
+0 명목형 변수(Nominal variable) 
+> 혈액형, 성별, 성공여부, 직업 등 
+0 순서형 변수(Ordinal variable) 
+"학점, 선호도, 증세(정상, 경증, 중증) 등 
+e 양적 변 수 (Quantitative variable) 
+0 이산형 변수(Discrete variable) 
+> 형제 수, 지원자 
+수, 성공 횟수, 발생건수 등 
+0 연속형 변수(Continuous variable) 
+> 키, 무게, 측정 길이, 나이 등 
+'（-’강원LRS공유대악 

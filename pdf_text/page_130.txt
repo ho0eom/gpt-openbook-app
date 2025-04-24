@@ -1,0 +1,10 @@
+• 
+[ilOIEi 프레임 
+'（-’강원LRS공유대악 
+e[-ti 이터 프레임의 활용 
+0 기존의 테이터 프레임에 특정 변수를 추가하려면 $를 이용함 
+- 예제 
+dat <- data.frame(gender = c(11female11, 11male11, 11male11, 11female11), age = 
+c(53.5, 36.3, 66.9, 20.3), grade = c(11A11, 11C11, 11A11, 11811)) 
+dat$major <- c(11Math11, 11Statistics11, 11Statistics11, 11Math11) 
+dat 

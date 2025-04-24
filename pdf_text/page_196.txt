@@ -1,0 +1,39 @@
+~ 
+R colors(R 이1 서의 색깔) 
+(0R 이1 서는 다양한 색깔을 제공합 
+0 참고할만한사이트 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+. 
+........_ . 
+• 
+> https://bootstrappers.umassmed.edu/bootstrappers-courses/ 
+pastCourses/rCourse_2016-04/Additional_Resources/Rcolorstyle. html 
+R Color Styles 
+Nick Hathaway; nicholas.hathaway@umassmed.edu 
+• A guide to using colors in R 
+• Hexadecimal colors 
+• Nained colors 
+• The color palette 
+• Converting rgb to hex color 
+• Converting an R color to rgb 
+• Creating a vector of grays 
+• Creating a vector ofheat colors 
+• Creating vectors of contiguous colors 
+• 
+• • 
+• 
+_솔 이 미 지 줄저 : https://bootstrappers. umassmed .edu/bootstrappers-courses/pastCourses/rCourse_2016-04/Additional_Resources/ 
+Rcolorstyle.html 

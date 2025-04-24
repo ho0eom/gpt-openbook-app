@@ -1,0 +1,43 @@
+·실습매재 
+- 예제 (7) 코드 
+> ＃빈도 
+> Status <- factor(dementia$Status , level s = c("Normal" , "MCI" , "Dementia")) 
+> APOE4 <- factor(dementia$APOE4, levels = 0:2) 
+> tab <- table(Status, APOE4) 
+> 
+> data . frame(tab) 
+Status APOE4 Freq 
+1 
+Normal 
+。
+455 
+2 
+MCI 
+。
+202 
+3 Dementia 
+。
+72 
+4 
+Normal 
+1 
+266 
+5 
+MCI 
+1 
+119 
+6 Dementia 
+1 
+112 
+7 
+Normal 
+2 
+55 
+8 
+MCI 
+2 
+31 
+9 Dementi.a 
+2 
+50 
+'（-’강원LRS공유대악 

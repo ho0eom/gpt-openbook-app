@@ -1,0 +1,9 @@
+[Hint] boxplot함수를이용해보자.
+·실습매재 
+- 예제 (6) 
+처 
+다음 뇌에 관련된 변수들의 상자그림(boxplot) 을 그려보라. 
+Whole brain / Ventricles / Hippocampus / 
+Entorhinal cortex / Fusiform gyrus / 
+Middle temporal gyrus 
+'（-’강원LRS공유대악 

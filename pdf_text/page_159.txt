@@ -1,0 +1,13 @@
+·조건문if 
+e 조건문 
+if의 활용 
+0 조건문 
+if에 실행될 코드가 
+2줄 이상이면 {｝틀 이용함 
+- 예제 
+my_sign <- function(x) { 
+if (abs(x) == x) { 
+print("x can be positive") 
+print("x can be zero") 
+if (abs(x) != x) print("x is negative") 
+'（-’강원LRS공유대악 

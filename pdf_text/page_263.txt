@@ -1,0 +1,30 @@
+.[R] 평행좌표그림 
+(0 ggparcoord함수 
+로 부 터 생성된 
+강원LRS공유대악 
+평행좌표그립 
+3 -
+2 • 
+1 . 
+a
+크
+e
+v
+ 
+O I· 
+-1 -
+-2 -
+Species 
+Setosa 
+versicolor 
+... 
+v1rg1rnca 
+’ 
+Sepal . Length 
+’ 
+’ 
+Sepal.Width 
+Petal.Length 
+variable 
+’ 
+Petal.Width 

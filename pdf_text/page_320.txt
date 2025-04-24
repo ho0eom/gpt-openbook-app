@@ -1,0 +1,5 @@
+·실습매재 
+- 예제 (10) R 코드 
+# 지매 상태와 APOE4 별 Hippocampus 상자그림 
+boxplot(log(Hippocampus) ~ APOE4 + Status, data = dementia) 
+'（-’강원LRS공유대악 

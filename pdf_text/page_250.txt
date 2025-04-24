@@ -1,0 +1,38 @@
+읊壅!J plot함수 
+(0 plot함수 활용 OIi 제 
+- 예제 : Orange 테이터에서 각 나무의 몸통둘레 변화를 살펴볼 수 
+그래프를그려보자 
+01~ 
+서EZ 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+• • 
+tree1 <- Orange[Orange$Tree == 1,] 
+tree2 <- Orange[Orange$Tree == 2,] 
+tree3 <- Orange[Orange$Tree == 3,] 
+• 
+• 
+• 
+• 
+plot(tree1 $age, tree1 $circumference, type = 'b' , 
+main = "Orange", xlab = "age", ylab = "circumference", 
+ylim = c(min(Orange$circumference)-10, max(Orange$circumference)+10), 
+axes = FALSE) 
+axis(side = 1, at = tree1 $age) 
+axis(side = 2, at = seq(20, 220, by = 20)) 
+lines(tree2$age, tree2$circumference, type = 'b', col = "red") 
+lines(tree3$age, tree3$circumference, type = 'b', col = "blue") 
+legend(x = 120, y = 180, legend = c("tree1 ", "tree2", "tree3"), col = c("black", "red", "blue"), lty = c(1, 1, 
+1), box.lty = 0) 

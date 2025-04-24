@@ -1,0 +1,30 @@
+• 
+평행좌표그림(Parallel coordinates plot) 
+e[-ti 이터의 여러 변수를 2 자원 평면매 나타내는 그래픽 기법 
+0 해석을 직관적으로 할 수 있다는 편리성 때문에 
+널리 사용함(특히, 군집 여부) 
+0 0| 산형 혹은 연속형 변수들에만 적용 가능한 단점이 있음 
+강원LRS공유대악 
+3 -
+2 -
+a
+크
+e
+v
+ 
+1 -
+OI-
+-1 . 
+-2 
+., .....
+... 
+::`·:` 
+.... 
+::‘ •...•. 
+P. 
+Petal.Length Petal.Width Sepal.Length Sepal.Width 
+variable 
+Species 
+• setosa 
+• versicolor 
+• virginica 

@@ -1,0 +1,12 @@
+• 
+[ilOIEi 프레임 
+e[-ti 이터 가져오기 
+O 외부의 CSV나 
+txtIl}일을 R 환경으로 불러올 수 있음 
+- 예제 
+' 앞서 생성된 mydata.txt 또는 mydata.csv 가져오기 
+getwd() # Check where the files are) 
+mydata <- read.table(11mydata.txt", header = TRUE) 
+mydata <- read.csv(11mydata.csv11, header = TRUE) 
+mydata <- readlines(11mydata.csv11) 
+'（-’강원LRS공유대악 

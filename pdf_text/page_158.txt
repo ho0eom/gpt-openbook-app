@@ -1,0 +1,13 @@
+·조건문if 
+e 조건문 
+if의 활용 
+0 조건문 
+if는 논리적 조건파 함께 사용함 
+> 논리적 조건이 맞을 경우 이하 기술된 코드를 실행함 
+> 함수와 함께 주로 사용함 
+” 예제 
+my_sign <- function(x) { 
+} 
+if (abs(x) == x) print("x is positive or zero") 
+if (abs(x) != x) print("x is negative") 
+'（-’강원LRS공유대악 

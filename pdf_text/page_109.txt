@@ -1,0 +1,11 @@
+·행렬 
+e 행렬간의연산 
+O 행렬의 다양한 연산을 위한 함수 
+> 역행렬(Inverse matrix) : solve() 
+> 전 지 행 렬 (Transpose matrix) : t() 
+> 대 각합(Trace) : diag() 
+> 행 렬 의 자원 (Dimension) : dim() 
+” 예제 
+m <- matrix(1 :4, 2, 2) 
+solve(m); t(m); diag(m); dim(m) 
+'（-’강원LRS공유대악 

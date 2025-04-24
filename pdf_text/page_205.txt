@@ -1,0 +1,7 @@
+.[R] 히스토그램 
+(0hist함수는 여러 인수(argument)를 제공합 
+0 breaks 
+O freq 
+O col 
+0 main, xlab, ylab 
+'（-’강원LRS공유대악 

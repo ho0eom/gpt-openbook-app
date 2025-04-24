@@ -1,0 +1,28 @@
+.[R] 모자익그림 
+(0mosaicplot함수를 이용하여 모자익그립을 생성 
+-
+예제 : 캘리포니아 버클리 대학교의 대학원 입학 
+'（-’강원LRS공유대악 
+mosaicplot(~Dept + Gender, data = UCBAdmissions, color = T) 
+UCB Admissions 
+A 
+c 
+D 
+.1apua8 
+으
+e
+w
+ 
+으
+C
+l
+l
+E
+a
+L
+L
+ 
+E 
+F 
+□D□ 
+Dept 

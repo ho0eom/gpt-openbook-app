@@ -1,0 +1,18 @@
+·합수 
+'（-’강원LRS공유대악 
+e 논리함수 
+O 벡터 · 행렬 · 배열에 사용되는 기본 논리 연산자 
+기호 
+| 
+설명 
+& 
+AND 
+| 
+OR 
+equal 
+l= 
+not equal 
+all 
+all of the values are TRUE 
+any 
+at least one of the values is FALSE 

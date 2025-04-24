@@ -1,0 +1,13 @@
+·실습매재 
+- 예제 (9) R 코드 
+par (mfrow = c (1, 3)) 
+log_scalex <- log(dementia$Hippocampus) 
+normal_scale <- log_scalex[dementia$Status == 'Normal'] 
+MCl_scale <- log_scalex[dementia$Status == 'MCI'] 
+Dementia_scale <- log_scalex[dementia$Status == 'Dementia'] 
+ymax <- max(log_scalex, na.rm = TRUE) 
+ymin <- min(log_scalex, na.rm = TRUE) 
+boxplot(normal_scale, main = 'Normal') 
+boxplot(MCl_scale, ylim = c(ymin, ymax), main = 'MCI') 
+boxplot(Dementia_scale, ylim = c(ymin, ymax), main = 'Dementia') 
+'（-’강원LRS공유대악 

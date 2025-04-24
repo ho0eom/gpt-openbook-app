@@ -1,0 +1,14 @@
+• 
+[R] 연관성매 관한 척도 
+(0pairs함수 
+O 함수의 여러 인수를 이응하여 정보를 추가하거나 제거할 
+수있음 
+- 예제 
+with_cor <- function(x,y) { 
+points(x, y, pch = 19) 
+car_xy <- cor(x, y) 
+mtext(round(car_xy, 2), side = 3, line = -3, las = 1, col = 11red311, 
+cex = 1.5) 
+} 
+pairs(trees, panel = with_cor, lower.panel = NULL) 
+'（-’강원LRS공유대악 

@@ -1,0 +1,37 @@
+[Hint] data.frame함수를이용해보자.StatusAPOE4FreqNormal0455MCI0202Dementia072Normal1266MCI1119Dementia1112Normal255MCI231Dementia250
+·실습매재 
+- 예제 (7) 
+Status, APOE4 의 조합에 따른 각 빈도를 구해보자. 
+측, 다음표를 R 을 이용해서 쿠해보라. 
+Status 
+APOE4 
+| 
+Freq 
+Normal 
+。
+455 
+MCI 
+。
+202 
+Dementia 
+。
+72 
+Normal 
+1 
+266 
+MCI 
+1 
+119 
+Dementia 
+1 
+112 
+Normal 
+2 
+55 
+MCI 
+2 
+31 
+Dementia 
+2 
+50 
+'（-’강원LRS공유대악 

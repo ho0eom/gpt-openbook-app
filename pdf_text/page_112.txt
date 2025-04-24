@@ -1,0 +1,18 @@
+· 행렬 
+e 행렬간의결합 
+” 예제 
+m1 <- matrix(1 :4, 2, 2) 
+m2 <- matrix(11 : 14, 2, 2) 
+rbind(m 1, m2) 
+cbind(m 1, m2) 
+> ml <- matri.x(l :4, 2, 2) 
+> m2 <- matri.x(ll:14, 2, 2) 
+> 
+> rbi.nd(ml , mZ) 
+[,1] [,Z] 
+gJ[二
+〔1：｝二』
+> cbi.nd(ml, mZ) 
+[ ,1] [ ,Z] [ ,3] [,4] 
+g:f「广戶TI 
+'（-’강원LRS공유대악 

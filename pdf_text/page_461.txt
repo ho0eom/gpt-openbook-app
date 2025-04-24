@@ -1,0 +1,19 @@
+𝒓)여러가지상관계수cor.test(dat$ADAS11, dat$Hippocampus)cor.test(dat$ADAS11, dat$Hippocampus, method = "pearson") # 동일한결과
+·여러 가지상관계수 
+(0 Pearson correlation coefficient( ) 
+0 피어슨 상관계수 = 두 변수의 선형 상관관계 정도 
+cor.test(dat$ADAS11, dat$Hippocampus) 
+cor.test(dat$ADAS11, dat$Hippocampus, method = 
+"pearson") # 동일한 결과 
+> cor . test(demenha$ADAS11, demenha$Hippocampus) 
+Pearson's product-moment correlati.on 
+data: 
+dementi.a$ADAS11 and dementi.a$Hi.ppocampus 
+t = -21.094, df = 1360, p-value < 2.Ze-16 
+alternati.ve hypothesi.s : true correlati.on i.s not equal to 0 
+95 percent confi.dence i.nterval : 
+-0 . 5354935 -0 .4553924 
+sample esti.mates: 
+cor 
+-0.4964992 
+'（-’강원LRS공유대악 

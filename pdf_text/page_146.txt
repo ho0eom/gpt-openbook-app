@@ -1,0 +1,25 @@
+𝒙sqrt(x)
+𝒆𝒙exp(x)
+𝐥𝐨𝐠𝒙𝐨𝐫𝐥𝐧(𝒙)log(x)
+𝒍𝒐𝒈𝟏𝟎(𝒙)log(x, base = 10)
+𝐬𝐢𝐧(𝒙)sin(x)
+𝐜𝐨𝐬(𝒙)cos(x)
+𝐭𝐚𝐧(𝒙)tan(x)
+𝝅pi
+·합수 
+'（-’강원LRS공유대악 
+e 수학함수 
+0 R 에서 기본으로 제공하는 수학에 관련된 함수 
+기호 
+| 
+R 에서의 용법 
+v 
+sqrt(x) 
+exp(x) 
+( ) 
+log(x) 
+log(x, base = 10) 
+sin(x) 
+cos(x) 
+tan(x) 
+Pl 

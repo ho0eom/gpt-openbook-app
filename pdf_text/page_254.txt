@@ -1,0 +1,32 @@
+~ xtabs의탈응 
+(0xtabs함수는 분할표의 자원을 다양하게 수정할 수 있는 이점이 있음 
+-
+예제 : 캘리포니아 버클리 대학교의 대학원 입학 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+• 
+• 
+dat <- as.data.frame(UCBAdmissions) 
+• 
+#분할표 비교 
+xtabs(Freq ~ Gender + Dept, data = dat) 
+xtabs(Freq ~ Gender + Dept + Admit, data = dat) 
+• 
+• 
+• 
+• 
+• • 
+• 
+• 

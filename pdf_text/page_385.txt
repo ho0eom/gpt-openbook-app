@@ -1,0 +1,13 @@
+• 
+[R] 변등성매 관한 척도 
+e 사분위간 범위틀 활용한 특이값을 도출하는 함수 만들기 
+outlier_detecting <- function(x) { 
+Q1 <- quantile(x, 0.25) 
+} 
+Q3 <- quantile(x, 0.75) 
+IQR <- Q3 - Q1 
+lower <- Q1 - 1.5 * IQR 
+upper <- Q3 + 1.5 * IQR 
+outliers <- x[(x < lower) l (x > upper)] 
+return(outliers) 
+'（-’강원LRS공유대악 

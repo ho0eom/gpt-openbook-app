@@ -1,0 +1,19 @@
+·실습매재 
+- 예제 (1) 코드 
+#죄빈값 
+my_mode <- function(x, na.rm = FALSE) { 
+if (na.rm == TRUE) x <- na.omit(x) 
+x_unique <- unique(x) 
+} 
+x_len <- c() 
+for (i in 1 :length(x_unique)) x_len[i] <- sum(x == x_unique[i]) 
+res <- matrix(x_unique[x_len == max(x_len)], nrow = 1 ) 
+cat(paste(paste("[frequency = ", max(x_len), "]", sep = ""))) 
+colnames(res) <- rep(" " , ncol(res)) 
+rownames(res) <-
+1111 
+res 
+my_mode(dementia$ADAS11, na.rm = TRUE) 
+my_mode(dementia$ADAS1 3, na.rm = TRUE) 
+my_mode(dementia$MMSE, na.rm = TRUE) 
+'（-’강원LRS공유대악 

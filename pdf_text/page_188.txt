@@ -1,0 +1,8 @@
+.[R] 막대그림 생성 
+(0barplot은 여러 인수를 제공하여 막대그립을 다양하게 
+꾸밀수있음 
+0 co| : 색깔 변경(개별 가능) 
+0 density : shading lines 
+0 xlab, ylab, main 
+0 border 
+'（-’강원LRS공유대악 

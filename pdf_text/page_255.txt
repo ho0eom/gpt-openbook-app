@@ -1,0 +1,49 @@
+• 
+R을 이응한 분할표의 활용 
+> xtabs(Freq ~ Gender + Dept, data = dat) 
+Dept 
+A 
+B 
+C 
+D 
+E 
+F 
+Gender 
+Ma1e 
+825 560 325 417 191 373 
+Female 108 
+25 593 375 393 341 
+> xtabs(Freq ~ Gender + Dept + Admi.t, data = dat) 
+, , Admi.t = Admi.tted 
+Dept 
+Gender 
+A 
+B 
+C 
+D 
+E 
+F 
+Male 
+512 353 120 138 
+53 
+22 
+Female 
+89 
+17 202 131 
+94 
+24 
+, , Admi.t = Rejected 
+Dept 
+Gender 
+A 
+B 
+C 
+D 
+E 
+F 
+Male 
+313 207 205 279 138 351 
+Female 
+19 
+8 391 244 299 317 
+'（-’강원LRS공유대악 

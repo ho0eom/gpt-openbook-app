@@ -1,0 +1,58 @@
+· 실습매재 
+- 예제 (8) 코드 
+> subdat <- data.frame(Status, mari.tal) 
+> subdat2 <- subdat[subdat$mari.tal != "Unknown",] 
+> tab2 <- table(subdat2$Status, subdat2$mari.tal) 
+> tab2 
+> 
+Normal 
+MCI 
+Dementi.a 
+Di.vorced Marri.ed Never marri.ed Wi.dowed 
+73 
+573 
+38 
+91 
+36 
+260 
+11 
+41 
+10 
+197 
+4 
+23 
+> round(prop . table(tab2 , margin = 1) , 2) # 각 치매 상태별 
+Normal 
+MCI 
+Divorced Married Never married Widowed 
+0 . 09 
+0 . 74 
+0 . 05 
+0 . 12 
+0 . 10 
+0 . 75 
+0 . 03 
+0 . 12 
+Dementia 
+0.04 
+0.84 
+0.02 
+0.10 
+> round(prop.table(tab2, margin = 2), 2) # 각 결혼 상태별 
+Normal 
+MCI 
+Dementi.a 
+Divorced Married Never married Widowed 
+0.61 
+0.56 
+0.72 
+0.59 
+0.30 
+0.25 
+0.21 
+0.26 
+0 . 08 
+0 . 19 
+0 . 08 
+0 . 15 
+'（-’강원LRS공유대악 

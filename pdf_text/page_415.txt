@@ -1,0 +1,15 @@
+·실습매재 
+- 예제 (1) 코드 
+> # 중앙값 
+> medi.an(dementi.a$ADAS11, no.rm = TRUE) 
+[1] 8.99 
+> medi.an(dementi.a$ADAS13 , na . rm = TRUE) 
+[1] 14. 67 
+> medi.an(dementi.a$MMSE, no.rm = TRUE) 
+[1] 28 
+> # apply함수를 사용할 수도 있음 
+> apply(dementi.a[,c("ADASll", "ADAS13", "MMSE")J, 2, functi.on(x) medi.an(x, na . rm = TRUE)) 
+ADASll ADAS13 
+MMSE 
+8.99 14.67 28.00 
+'（-’강원LRS공유대악 

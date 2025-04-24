@@ -1,0 +1,22 @@
+· 실습매재 
+'（-’강원LRS공유대악 
+- 예제 (1) R 코드 
+# 빈도표와 도수분포표 (배열 바꾸기) 
+dementia$Status <- factor(dementia$Status, levels = c("Normal", "MCI", "Dementia")) 
+tab <- table(dementia$Sex, dementia$Status) 
+tab_dat <- as.data.frame(tab) 
+colnames(tab_dat) <- c("Sex", "Status", "Freq") 
+barplot(Freq ~ Sex + Status, data = tab_dat, legend.text = c("Female", "Male"), 
+args.legend = list(x = "topright", box.lty = O)) 
+디 Male 
+훌 
+I Female 
+노g 응 
+寸
+읍 」
+| -- 
+o 
+.... 
+Normal 
+MCI 
+Dementia 

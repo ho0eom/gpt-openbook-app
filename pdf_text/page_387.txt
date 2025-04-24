@@ -1,0 +1,26 @@
+• 
+[R] 변등성매 관한 척도 
+(0trees 테이터의 각 변수매서 특이값을 찾아보자. 
+강원LRS공유대악 
+attach(trees) 
+head (trees) 
+outlier_detecting(Girth) 
+outlier_detecting (Height) 
+outlier_detecting (Volume) 
+> outli.er_detecti.ng(Gi.rth) 
+numeri. c(0) 
+> outli.er_detecti.ng(Hei.ght) 
+numeri. c(0) 
+> outli.er_detecti.ng(Volume) 
+[ 1] 77 
+O
+L 
+09 
+Os 
+O
+V 
+oc 
+oz 
+0
+( 
+Volume 

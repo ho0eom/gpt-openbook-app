@@ -1,0 +1,45 @@
+읊壅!J plot함수 
+e 의미와 주요 인자 및떠|제 
+-
+예제 : 다음의 키와 몸무게에 plot을 적용해보자 
+떻
+ 
+유
+ 
+공
+ 
+s 
+R 
+L 
+원
+ 
+강
+•
+ 
+• 
+• 
+dat <- data.frame(height = c(190, 165, 175, 150), weight = 
+c(80, 55, 60, 45)) 
+o <- order(dat$height) 
+dat[o,] 
+plot(dat[o,], type = "o") 
+• 
+• 
+• 
+• 
+08 
+SL 
+OL 
+99 
+09 
+SS 
+OS 
+SP 
+l46!8M 
+• 
+150 
+160 
+170 
+180 
+190 
+height 
