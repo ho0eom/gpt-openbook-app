@@ -1,9 +1,17 @@
-.R의 작업 환경 
-(0R의 기능 
-0 R은 컴퓨터의 특정 공간에 위지한 파일을 유기적으로 
-불러오고 저장하는 기능을 함 
-> 작업 디렉토리(working directory) 의 설정이 가능함 
-- 예제 
-getwd() 
-setwd("c:WdatasetsWmydataW") 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+정리하기
+28⚫FHIR뜻
+▪F-Fast( 설계및구현하기 ‘빠름’ )
+▪H-Healthcare( 헬스케어 분야)
+▪I-Interoperability( 상호운용성 )
+▪R-Resources( 리소스 ; 빌딩블록)FHIR의개요
+⚫FHIR의특징
+▪쉽고빠르게 이해하고 구현가능
+▪코드및예제서버가 이미존재
+▪사양은 무료로 제한없이사용가능
+▪웹기반
+▪로컬사용에 맞게원활하게 확장및적용가능
+⚫RESTfull
+⚫Documents
+⚫Messages
+⚫Services

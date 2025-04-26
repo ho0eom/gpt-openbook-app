@@ -1,15 +1,3 @@
-• 
-[R] 도수분포표 생성 
-e 요인을 활용하여 빈도가 없는 수준(level) 도 도수분포표매 
-고려되도록해야합 
-- 예제 : A, B, C, D, F로 부여되는 학점 
-# correct 
-grade3 <- factor(c("A", "C", "A", "B"), 
-levels = c("A", "B", "C", "D", "F")) 
-table(grade3) 
-> t ab7 ,e (grade3) 
-grade3 
-A
-B CIDF 
-,2 1 1 0 0 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+34FHIR.Resource  사용하기
+FHIR Narrative 사용하기

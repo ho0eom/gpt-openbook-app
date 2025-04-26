@@ -1,25 +1,14 @@
-80 ≤𝑥< 90B
-70 ≤𝑥< 80C
-60 ≤𝑥< 70D60 미만F
-·조건문if 
-e 조건문을 활용한 점수 등급 매기기 (1) 
-- 예제 
-grading <- function(score) { 
-} 
-if (score >= 90) grade <- "A" 
-if (score >= 80 & score < 90) grade <- " B" 
-if (score >= 70 & score < 80) grade <- "C" 
-if (score >= 60 & score < 70) grade <- "D" 
-if (score < 60) grade <- " F" 
-return(grade) 
-score 
-90 이상 
-60 미만 
-'（-’강원LRS공유대악 
-| 
-grade 
-A 
-B 
-C 
-D 
-F 
+FHIR 리소스실습
+10FHIR 리소스
+데이터유형
+◆W3C 스키마및ISO 데이터유형기반
+리소스구성요소
+◆서술식 (Narrative)
+가독성을가지는구조
+XML 태그중텍스트 (Text)에담긴내용
+프로그램코드에서주석과동일한역할
+필수사항은 아니지만반드시있어야함
+•동작에는문제가없지만입력을강제함
+•매우엄격한통제와강력한적합성테스트를갖춘폐쇄형생태계라면 필요없을수도있음
+•시간이지나면서상황이변하기때문에서술식을사용하는것이좋음
+DiagnosticReport

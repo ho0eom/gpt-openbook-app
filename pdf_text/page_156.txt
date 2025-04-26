@@ -1,11 +1,7 @@
-.R의 작업 환경 
-(011H 키지 다루기 
-0 패키지 설지 및 불러오기 
-- 예제 
-install.packages("ggplot2") # 설 지 
-library(ggplot2) # 불러오기 
-0 패키지의 함수는 패키지 고유의 environment를 
-가지고 있음(Package environment) 
-> global environment에서 수정된 함수가 package 안으 
-함수메 영향을 미지면 안되도록 구성됨 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+4FHIR 개요
+FHIR
+◆HL7기관에서발표한차세대최신표준
+◆FHIR의의미
+◆FHIR이름의의미
+헬스케어분야에서가장빠른리소스기반상호운용성 최대화표준

@@ -1,31 +1,4 @@
-·행렬 
-e 행렬간의연산 
-0 연산의 종류 
-Operator 
-+ 
-* 
-I 
-^ 
-0/o*Ofc。
-Description 
-addition 
-subtraction 
-element-wise 
-multiplication 
-division 
-exponentiation 
-matrix multiplication 
-'（-’강원LRS공유대악 
-I Operator 
-Description 
-< 
-less than 
-<= 
-less than or equal to 
-> 
-greater than 
->= 
-greater than or equal to 
-exactly equal to 
-%xO/。
-Kronecker product 
+HL7 메시지실습
+HL7apy 사용하기
+HL7apy 사용
+HL7apy 실습

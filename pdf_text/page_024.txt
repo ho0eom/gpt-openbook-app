@@ -1,5 +1,9 @@
-𝜒2) 판정법추측통계학,소표본이론정립,t-분포이미지출처: https://en.wikipedia.org/wiki/Karl_Pearson#/media/File:Karl_Pearson,_1912.jpghttps://en.wikipedia.org/wiki/William_Sealy_Gosset#/media/File:William_Sealy_Gosset.jpg
-피어슨
-(Karl Pearson; 1857∼1936; 영국)
-고세트
-(W. Gosset; 1876∼1936; 영국)19C초이후, 통계학비약적으로발전통계학의역사
+다양한표준소개및HL7 개요
+25데이터종류(Data Type)
+전화번호 (TN)
+주소(AD)
+◆주소(AD) 의 개념
+개인 또는 기관의 도로명 주소 또는 우편 주소
+◆주소(AD) 의 형식
+미국은 국가 컴포넌트에 null 입력
+주소분류에는 C, P, M, B, O, B, H( 현재/임시, 영구, 우편, 회사, 사무실 , 집)

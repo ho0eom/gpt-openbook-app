@@ -1,8 +1,9 @@
-• 
-관측 자료(Observational data) 
-e 연구자의 개입이나 중재 없이 관측하여 수집되는 자료 
-O 빅테이터에서 흔히 발생하는 자료 
-0 실험이 반복될 수 없거나 실험이 적절하지 못한 
-상황에서 흔히 얻어지는 자료 
-> COVID-19 확진자 수 동향 등 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+30HL7 메시지세그먼트종류
+PID - Patient Identification
+◆Ethnic Group
+환자 혈통 추가 정의
+◆Birth Place
+출생지
+◆Multiple Birth Indicator
+쌍둥이 여부(Y/N)

@@ -1,10 +1,13 @@
-·벡터 
-e 벡터의종류 
-O 문자형 벡터 
-> 문자 값으로 01 루어진 벡터임 
-> 문자를 다루기 때문에 명목형 변수를 구성할 때 주로 사용함 
-> 반드시 따옴표를 사용하여 저장해야 합("a,, 혹은 ‘a') 
-- 예제 
-x <- "Female" 
-x <- c("male", "female", "") 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+4VS Code 설치및실행하기
+설치및실행하기
+◆실습을 위한 프로그램
+프로그래밍 언어: 파이썬
+통합개발환경 : IDE, Integrated Development Environment
+파이썬 프로그래밍을 지원하는 IDE 중가장 많이 사용하는 Visual Studio Code(VS 
+Code)
+◆https://code.visualstudio.com/
+◆링크 접속 → 파란색 버튼 클릭
+◆윈도우가 아닌 다른 os→ 오른쪽 화살표 클릭
+◆설치 후실행 첫화면
+◆Extensions 검색 후Extensions:Install  Extensions 클릭

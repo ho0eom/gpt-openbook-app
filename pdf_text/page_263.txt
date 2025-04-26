@@ -1,30 +1,10 @@
-.[R] 평행좌표그림 
-(0 ggparcoord함수 
-로 부 터 생성된 
-강원LRS공유대악 
-평행좌표그립 
-3 -
-2 • 
-1 . 
-a
-크
-e
-v
- 
-O I· 
--1 -
--2 -
-Species 
-Setosa 
-versicolor 
-... 
-v1rg1rnca 
-’ 
-Sepal . Length 
-’ 
-’ 
-Sepal.Width 
-Petal.Length 
-variable 
-’ 
-Petal.Width 
+DICOM 실습
+27Pydicom의개요및각종메서드
+pydicom.data
+◆get_testdata_file
+입력한 파일 이름과 일치하는 첫번째 일치 데이터 세트에 대한 절대 경로 리스트를
+반환하는 메서드
+매개변수
+•파일 이름 입력
+반환값
+•일치하는 파일 이름에 대한 절대 경로

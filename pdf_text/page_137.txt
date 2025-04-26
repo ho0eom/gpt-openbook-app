@@ -1,10 +1,6 @@
-• 
-[ilOIEi 프레임 
-e[-ti 이터 가져오기 
-O 테이터를 가져올 때 변수의 이름이 있는 경우에는 
-함수메 header = TRUE를 반드시 사용해야 합 
-- 예제 
-圖,
-read.table(file = 11mydata.txt11, 
-read.csv(file = 11mydata.csv11, -
-'（-’강원LRS공유대악 
+HL7 메시지실습
+15리소스의개념과구성
+리소스의구조
+리소스의구성요소
+◆리소스는 연결 구문 기반 XML 구조로 정의되어 있음
+XML 또는 JSON 인스턴스로 구현

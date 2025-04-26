@@ -1,13 +1,15 @@
-·반복문for 
-e 반복문for의 활용 
-O 반복문 
-for에서 
-i 대신 다른 문자가 가능함 
-- 예제 
-3 1 부터 10 까지의 모든 수의 합 
-ss <- 0 
-for (k in 1 : 10) { 
-ss <- ss + k 
-} 
-ss 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+13FHIR리소스란
+FHIR리소스란?
+◆FHIR 리소스를직관적으로 처리하는 Python 패키지
+FHIR 사양에정의된모든리소스의생성및조작에대한도구와클래스제공
+모듈명 : fhir.resources  
+최신버전 : 7.0.2(2023.07.04.) / python 3.6~3.12
+◆주요기능
+쉬운구성, 쉬운확장검증, 쉬운 export
+기본데이터유형에대한 FHIR 확장성의완벽지원
+FHIR 리소스의이전릴리즈사용가능
+무료소프트웨어임 (BSD 라이선스 )
+◆설치커맨드및참고문서
+pip install FHIR리소스 s
+https://pypi.org/project /FHIR리소스 s/

@@ -1,32 +1,9 @@
-~ xtabs의탈응 
-(0xtabs함수는 분할표의 자원을 다양하게 수정할 수 있는 이점이 있음 
--
-예제 : 캘리포니아 버클리 대학교의 대학원 입학 
-떻
- 
-유
- 
-공
- 
-s 
-R 
-L 
-원
- 
-강
-•
- 
-• 
-• 
-dat <- as.data.frame(UCBAdmissions) 
-• 
-#분할표 비교 
-xtabs(Freq ~ Gender + Dept, data = dat) 
-xtabs(Freq ~ Gender + Dept + Admit, data = dat) 
-• 
-• 
-• 
-• 
-• • 
-• 
-• 
+DICOM 실습
+18DICOM 연결및기타정리
+DICOM 구조화보고서 (SR)
+◆진단 보고서 , 측정, 절차 로그, 핵심 객체 식별 및CAD(Computer Aided Detection) 출력
+등다양한 응용 프로그램에 사용
+트리 구조로 구축되고 UID로식별되는 영구 객체
+연구의 핵심 영상을 참조하여 구조화된 방식으로
+검사 요약을 작성할 때사용
+•산부인과 , 심장학 및혈관 초음파 검사

@@ -1,8 +1,6 @@
-.[R] 상자그림 
-e 여러 수지형 변수를 가지는 데이터매 적용하면 
-각 변수매서의 상자그림을 제공합 
-- 예제 
-boxplot(trees$Height) # only for Height 
-boxplot(trees) # for all variables in the 'trees' data 
-set 
-'（-’강원LRS공유대악 
+DICOM 소개및개념
+27DICOM 클래스와명령어
+DIMSE( Dicom  Message Service Element)
+◆DICOM 메시지서비스요소
+SCU와SCP 간의작업을시작하는명령어
+C-STORE, C -FIND, C -MOVE, N -GET, N -MOVE 등

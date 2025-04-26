@@ -1,27 +1,4 @@
-[Hint] barplot함수에formula 형식으로데이터를
-적절히입력해서다음그래프를그려보도록하자.
-·실습매재 
--
-예제 (1) 
-강원LRS공유대악 
-변수 Status 에서 막대그림을 만들어보라. 또한, 각 막대에서 
-각각의 성별이 자지하는 비율을 확인할 수 있도록 해보자. 
-OOOO 
-00
-9 
-oo
-v 
-넒
-J
-L
-L
- 
-ooz 
-。
-口
-Male 
-■ Female 
-Dementia 
-MCI 
-Normal 
-Status 
+DICOM 실습
+48Pydicom  실습하기
+Read a Dataset and plot Pixel Data
+◆데이터 세트를 읽어 픽셀 데이터를 그리는 실습

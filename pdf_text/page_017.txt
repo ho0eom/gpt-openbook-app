@@ -1,4 +1,12 @@
-베르누이
-(J. Bernoulli; 1654∼1705; 스위스)17C후반~18C의초기통계학이미지출처: https://en.wikipedia.org/wiki/Jacob_Bernoulli#/media/File:Jakob_Bernoulli.jpg https://en.wikipedia.org/wiki/Abraham_de_Moivre#/media/File:Abraham_de_moivre.jpg이항분포발견이항분포의근사확률
-드무아브르
-(A. De Moivre; 1667∼1754; 프랑스)통계학의역사
+다양한표준소개및HL7 개요
+18메시지의개념과구성
+세그먼트 (Segment)
+◆세그먼트 (Segment) 의개념
+세그먼트는 데이터 필드의 논리적 집합
+•세그먼트는 종류가 다양하지만 모든 메시지에 들어갈 필요는 없음
+세그먼트는 한번만 나오거나 반복적일 수있음
+메시지 타입과 마찬가지로 숫자 포함 영문 세글자로 구성
+◆(예) ADT 메시지
+MSH(Message Header), EVN(Event Type), PID(Patient ID), PV1(Patient Visit) 
+세그먼트를 포함하는 메시지
+◆세그먼트 (Segment) 의종류

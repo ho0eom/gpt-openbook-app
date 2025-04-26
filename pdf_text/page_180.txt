@@ -1,14 +1,3 @@
-• 
-[R] 도수분포표 생성 
-e 빈도만을 제공하는 도수분포표는 
-table함수를 이용합 
-- 예제 : 16 명의 학생의 성적 조사 
-grade <- c("A" , "B" , "B" , "C" , "C" , "A" , "C" , "B" , "D" , "A" , 
-"A" , "B" , "B" , "F" , "D" , "B") 
-grade <- factor(grade, levels = c("A", "B", "C", "D", "F")) 
-table(grade) 
-> table(grade) 
-grade 
-A B C D F 
-4 6 3 2 1 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+FHIR 리소스  사용하기
+FHIR. Resource  사용하기

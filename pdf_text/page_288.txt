@@ -1,7 +1,17 @@
-·실습매재 
-- 예제 (2) 
-변수 Status 에 해당하는 각 막대에서 임의의 질적 변수들이 
-자지하는 비율을 보여주는 그래프를 그리는 R 함수를 정의하고 
-다음 변수들에게 적용해보자. 
-APOE4 / Race / Marital status 
-'（-’강원LRS공유대악 
+DICOM 실습
+정리하기
+52⚫DICOM 개요
+▪의학분야의 디지털 영상및통신에 관한표준DICOM 개요
+⚫DICOM 장치
+▪DICOM 표준에 따라작동하는 소프트웨어가 내장된 컴퓨터 시스템
+⚫DICOM Object 의구조
+▪DICOM 헤더정보, 실제영상데이터
+⚫DICOM 헤더구조
+▪Tag, VR, Value Length, Value Field
+⚫DICOM 역할
+▪SCU( 클라이언트 ), SCP( 서버)
+⚫DICOM 클래스와명령어
+▪DICOM SOP, DIMSE, DICOM UIDs
+⚫DICOM 구조화보고서 (SR)
+▪진단보고서 , 측정, 절차로그, 핵심객체식별및CAD(Computer Aided Detection) 출
+력등다양한 응용프로그램에 사용

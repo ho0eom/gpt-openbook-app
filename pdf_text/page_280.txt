@@ -1,51 +1,5 @@
-• 
-:1:I DH 빅 [1l0l E·l 
-- 예제 
-변수 
-ID 
-Age 
-Death 
-Status 
-Sex 
-Education 
-Race 
-Marital status 
-APOE4 
-| 
-설명 
-질적/명목 
-양적/연속 
-질적/명목 
-질적/순서 
-질적/명목 
-양적/연속 
-질적/명목 
-질적/명목 
-양적/이산 
-강원LRS공유대악 
-기二zr 
-질적~ 명목 
-순서 
-양적 
-「이산 
-연속 
-변수 
-설명 
-ADAS11 
-양적/연속 
-ADAS13 
-양적/연속 
-MMSE 
-양적/연속 
-Ventricles 
-양적/연속 
-Hippocampus 
-양적/연속 
-Whole Brain 
-양적/연속 
-Entorhinal cortex 
-양적/연속 
-Fusiform gyrus 
-양적/연속 
-Middle temporal gyrus 
-양적/연속 
+DICOM 실습
+44Pydicom  실습하기
+Read RTPLAN DICOM and list information
+◆RTPLAN( 방사선 치료 계획) 다이콘 파일을 읽는 실습
+결과값

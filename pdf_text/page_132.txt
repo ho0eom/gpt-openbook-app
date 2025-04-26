@@ -1,13 +1,17 @@
-• 
-[ilOIEi 프레임 
-e[-ti 이터 가져오기 
-0 R 에서는 테이터 프레임 형태로 다양한 테이터를 제공합 
-> data(iris) 
-> head(iris) 
-> iris$Species 
-_ 
-data(iris) 는 iris [i| 이터를 R환경으로 불러오는 기능이므로 아무 결파도 줄력하지 않고, 
-head(iris) 는 테이터의 일부분만 보여주니 
-iris를 전제 테이터를 보려면 iris를 
-R 에 입력해야합 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+10FHIR의패러다임
+FHIR의패러다임
+◆RPC vs REST
+차이가 미묘하고 관점에 따라 다르나 결과 차이가 큼
+REST 가점점 더선호되고 있으나 대부분의 시스템은 RPC 와REST 를혼용함
+•REST 의문제점은 서버가 클라이언트로부터 Context 가필요한 경우를 처리 못함
+•사용자의 Context 에대한 추적을 누가 할것인지 알수없기 때문에 문제가 없는
+것처럼 보임
+◆Documents
+HL7의CDA 표준과 유사함
+함께 묶여있는 리소스 컬렉션
+•CDA 표준에서의 헤더와 유사한 역할을
+하는 “Composition” 리소스가 근원
+ATOM Feed 로서 전송
+하나의 Context
+서명, 인증 등가능

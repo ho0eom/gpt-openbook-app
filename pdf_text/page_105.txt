@@ -1,10 +1,12 @@
-·행렬 
-e 행렬의 활용 
-O 행렬에서 특정 행과 열을 가져오기 위해서는 벡터와 
-마찬가지 
-로 [］틀 활용함 
-- 예제 
-x <- matrix(1 :4, 2, 2) 
-x[ 1, 1 ] 
-x[2, ] 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+17HL7 메시지관련모듈
+메시지파서(Parser)
+◆parser_message  함수 사용
+hl7apy.parser.parse_message()
+•parser_message 는ER7 방식의 메시지를 파싱하고 그인스턴스를 반환한다고
+명시되어 있음
+세그먼트파서
+◆parse_segment  / parse_segments  함수 사용
+hl7apy.parser.parse_segment() / . parse_segments ()
+•텍스트 , 버전, 인코딩 문자 등을 입력하여 메서드와 함께 사용 가능
+•ER7 방식의 세그먼트를 파싱하고 그인스턴스를 반환

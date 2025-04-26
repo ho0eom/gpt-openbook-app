@@ -1,45 +1,11 @@
-읊壅!J plot함수 
-(0 plot登순 활용」| 제 
-” 예제 : Orange 테이터는 세 변수를 가지고 있음 
-[ str(Orange) 
-떻
- 
-유
- 
-공
- 
-s 
-R 
-L 
-원
- 
-강
-•
- 
-• • • 
-> st r (o r ange) 
-cl asses ' nfnGroup,edoat a' , ' nfGroupedData ' , ' groupedoa.t a ' and ' da1I:a. f r a rne ' : 
-35 obs . of 
-3 vari abl es : 
-$ Tree 
-: Ord. factor w/ S l evel s " 3"<"1"<" 5"<" 2"< .. : 2 2 2 2 2 2 2 4 4 4 
-$ age 
-: num 
-118 484 664 1004 1231 . . . 
-$ ci r cunlfer ence : num 
-30 58 87 11 5 120 142 145 33 69 111 ... 
-- attr(*, "f ormul a")=Class ' for mula' language circumf erence -
-age I Tree 
-. . . . - a-ctr (" , " . Envi ronment ") =<envi ronment: ILEmpt yEnv> 
-- attr(*, "l abe l s ") =L i st of 2 
-.. $ x: chr "Time s i nce December 31 , 1968" 
-.. $ y : chr "Trunk ci r cumfer ence 
-- attr(*, "uni ts ") =Li st of 2 
-.. $ x: chr " (days)" 
-•• $ y: chr " (mm)" 
-• 
-• 
-~ 
-............. ............... [JIii 
-테이터셋의 구조를 파악할 수 있는 함수 
-• 
+DICOM 실습
+13DICOM 업무흐름정리
+DICOM SOP
+◆DICOM SOP(Service Object Pair)
+◆“서비스 객체 쌍”으로 객체의 종류와 서비스의 조합
+SOP Class(Instance) UID
+UID 이름(서비스 ) 및UID 값으로 구성됨
+DICOM CT 영상 저장 시필요한 구성 요소
+•CT 영상 / 저장 서비스◆(예) CT 영상 저장 시SOP 란?
+CT 영상 / 저장 서비스
+•“CT Image Storage” 1.2.840.10008.5.1.4.1.1.2

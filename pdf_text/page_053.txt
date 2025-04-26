@@ -1,11 +1,14 @@
-• 
-사건사 자료(Event-history data) 
-e 사건사자료의 몌 
-0 지매의 경우, 아래와 같이 증상이 나뉠 
-[ 
-정 상(Norma l or lntact Cognition) 
-] 
-[
-경도인지장매(:；l;；:：：:：:paIrment; MCl) 
-\ 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+25ADT 메시지의세그먼트
+PID - 환자식별 Patient Identification
+◆County Code
+카운티 코드
+현재는 환자 주소에 종속됨 (이전 버전 호환성을 위해 존재)
+◆Phone Number - Home
+집전화번호
+3회반복 입력 가능(첫번째 값이 기본값 )
+◆Phone Number – Business
+회사 전화번호
+3회반복 입력 가능(첫번째 값이 기본값 )
+◆Language - Patient
+환자 모국어

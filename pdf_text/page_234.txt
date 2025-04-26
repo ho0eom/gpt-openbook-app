@@ -1,30 +1,15 @@
-• 
-평행좌표그림(Parallel coordinates plot) 
-e[-ti 이터의 여러 변수를 2 자원 평면매 나타내는 그래픽 기법 
-0 해석을 직관적으로 할 수 있다는 편리성 때문에 
-널리 사용함(특히, 군집 여부) 
-0 0| 산형 혹은 연속형 변수들에만 적용 가능한 단점이 있음 
-강원LRS공유대악 
-3 -
-2 -
-a
-크
-e
-v
- 
-1 -
-OI-
--1 . 
--2 
-., .....
-... 
-::`·:` 
-.... 
-::‘ •...•. 
-P. 
-Petal.Length Petal.Width Sepal.Length Sepal.Width 
-variable 
-Species 
-• setosa 
-• versicolor 
-• virginica 
+DICOM 소개및개념
+정리하기
+42⚫다이콤 (DICOM)
+▪의학분야의디지털영상및통신에관한표준
+▪여러공급업체간의료영상배포, 보기및인쇄를지원하기위해만든표준DICOM 소개및객체
+⚫DICOM 장치
+▪DICOM 표준에따라작동하는소프트웨어가 내장된컴퓨터시스템
+▪Modality 또는Application Entity(AE) 라부름
+⚫DICOM Object 의구조
+▪DICOM 헤더정보, 실제영상데이터
+⚫DICOM 헤더구조
+▪Tag, VR, Value Length, Value Field
+⚫Little / Big Endian
+▪Little Endian: 마지막바이트부터 역순으로
+▪Big Endian: 첫번째바이트부터 순서대로

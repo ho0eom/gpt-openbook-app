@@ -1,5 +1,0 @@
-·확률분포 
-e 뻬르누이분포(Bernoulli distribution) 
-0 자료가 이진수(binary) 인 경우 사용 
-0 D 질병 여부, 성공 여부 
-'（-’강원LRS공유대악 

@@ -1,8 +1,0 @@
-[Hint] boxplot함수의formula argument에
-Status와APOE4를적용하자.치매상태와APOE4 수에따른Hippocampus의상자그림을그려보자. 단,log 변환을취해야한다.
-·실습매재 
--
-예제 (10) 
-지매상태와APOE4 수에 따른 Hippocampus 의 상자그림을 
-그려보자. 단, |og 변환을 줘해야한다. 
-'（-’강원LRS공유대악 

@@ -1,16 +1,5 @@
-.R의기본 
-e 기본객체 
-해려 
-0 드므 
-벡터 
-(Vector) 
-(Matrix) 
-배열 
-(Array) 
-리스트 
-(List) 
-이터프레 
-ata tram 
-함수 
-(Function) 
-강원LRS공유대학 
+HL7 메시지와트랜잭션
+55환자퇴원예시
+환자퇴원 : 이벤트코드 A03
+◆EVN 세그먼트
+◆PID 세그먼트

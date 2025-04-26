@@ -1,15 +1,4 @@
-·반복문for 
-e 반복문for의 활용 
-O 반복문 
-for는 지정된 값들을 순자적으로 반복하는 
-작업을 수행함(아래 예제에서 V는 벡터) 
-- 예제 
-s V가 벡터일 때 
-for (i in V) { 
-실행문 
-(i 가 벡터 V의 첫번째 값부터 마지막 값으로 대제) 
-} 
-for (i in c(1, 2, 5, 4)) { 
-print(i) 
-} 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+FHIR 리소스  학습하기
+FHIR 리소스란
+Google Colaboratory

@@ -1,9 +1,7 @@
-• 
-빅[ii01Ei 의 메 
-(0l1DH 관련 유전체 빅테이터 
-0 Alzheimer's Disease Neuroimaging lnitiative(ADNI) 
-> 1,000 여 명의 잠여자로부터 수집된 전장유전제 연관분석 
-연구(Genome-Wide Association Studies; GWAS) 
-> 수년에 걸쳐 지매의 진행과정을 기록한 임상자료 
-> 20 개 이상의 기업이 잠여 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+5ADT 메시지의이벤트코드
+이벤트코드
+◆A03 환자 퇴원
+입원환자에서 퇴원환자로 환자의 상태를 변경하는 경우
+◆A04 환자 등록
+응급실 입원 환자 및외래 환자 포함

@@ -1,21 +1,5 @@
-.[R] 히스토그램 
-강원LRS공유대악 
-(0[R] 히스토그램 활용 
-O 두 그룹 테이터에 대한 히스토그램 도식화 
-> 한 히스토그램에 색깔로 구분하여 표시하기 
-Group A(red) Vs. Group B(blue) 
-文
-O
-.
-o
-co.ozo.o 
-Al!Suaa 
-LO.o 
-oo·o 
-。
-20 
-40 
-60 
-80 
-100 
-raw score 
+DICOM 소개및개념
+DICOM 업무흐름
+DICOM 업무흐름
+DICOM 서비스와역할
+DICOM 클래스와명령어

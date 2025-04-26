@@ -1,45 +1,7 @@
-• 
-빅[ii01Ei 의 메 
-(0l1DH 관련 유전체 빅테이터 
-0 Alzheimer's Disease Neuroimaging lnitiative(ADNI) 
-Current PPSB Partners for ADNl3 
-촐FNIH 
-obbvie ~ I-AD 
---- 
--"~"t4 
-묘나마댜 ALECTQR 
-alzheimer's ~ 
-association 
-Araclon Biotech 
-Alzheimer's 
-Drug Discovery 
-FoundaIlon 
-壓Z5-
-• 
-그En J\Ll ••• 
-O IAMIR 
-a1ocu 「11CA'
-Biogen @) Cogstate 
-EUROIM MUN 
-·-`서`
-’ ’“ '
-’ ’, 
-FUJIFILM Toyama Chemical Co처Ltd . 
-Genentech 。
--
-ja므?n r 
-0
-MERCK 
-’ 
-,J PeopleBio 
-혹무J 六 
-S 
-l<~ ~iramal 
-Mag~ u 
-@ 
-Saladax 
-으 
---::' SERVIER 
-4 
-_솔 이미지 줄저 : https://adni.loni.usc.edu/about/#gov-conta1ner 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+6ADT 메시지의이벤트코드
+이벤트코드
+◆A05 환자 사전 입원
+수술 전LAB 테스트 결과에서 사전 입원이 필요하면 수술 일정 시스템에 전달
+◆A06 외래 환자 입원 전입 시•한국의 경우
+격리 병동에 사전 입원하는 경우가 예시

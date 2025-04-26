@@ -1,11 +1,9 @@
-.[R] 히스토그램 
-(0[R] 히스토그램 활용 
-O 두 그룹 테이터에 대한 히스토그램 도식화 
-> 한 히스토그램에 색깔로 구분하여 표시하기(R 코드) 
-# draw two histograms on one plot 
-hist(x, main = "Group A (red) vs. Group B (blue)", xlab = 
-"raw_score", xlim = c(O, 100), freq = F, col = 
-rgb(153/255,0,0,0.5)) 
-hist(y, main = "", xlim = c(O, 100), breaks = 20, freq = F, add = T, 
-col=rgb(O,O, 102/255,0.5)) 
-'（-’강원LRS공유대악 
+DICOM 소개및개념
+18DICOM 업무흐름
+환자입원시, 병원업무의흐름
+◆환자가다쳐서내원하여환자등록을할때까지의업무흐름
+1)전자환자파일 또는환자기록(EPF(Electronic Patient File))
+•개인정보, 건강검진사유, 병력이포함된병원의데이터베이스 기록을생성하거나 검색
+•초진환자의경우이름과연결된고유한환자식별번호(ID)를받음
+2)의사를배정하고검사요청
+•병원행정시스템내에서 HL7 메시지로배포됨

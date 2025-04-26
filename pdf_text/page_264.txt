@@ -1,0 +1,9 @@
+DICOM 실습
+28Pydicom의개요및각종메서드
+pydicom.dcmread
+◆pydicom.dcmread
+DICOM 파일 형식으로 저장된 DICOM 데이터 세트를 읽고 구문을 분석하는 메서드
+매개변수
+•파일 이름
+반환값
+•인스턴스 구문 분석된 DICOM 파일 반환

@@ -1,16 +1,14 @@
-=도수총도수누적상대도수총도수에대한여러계급의누적된도수의비율누적상대도수
-=누적도수총도수
-• 
-도수분포표(Frequency Table) 
-e 상대도수와 누적상대도수 
-O 상대도수 
-> 종 도수메 대한 각 계급의 도수 비율 
-상대도수 
-O 누적상대도수 
-도수 
-종도수 
-> 종 도수메 대한 여러 계급의 누적된 도수의 비율 
-누적상대도수 
-누적도수 
-종도수 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+21Google Colaboratory
+Google Colaboratory
+◆클라우드기반의무료 Jupyter  노트북개발환경
+Jupyter  노트북 : 웹기반파이썬개발환경
+◆Google 드라이브 , GitHub 연동, 파일업로드가능
+◆GPU, TPU 같은하드웨어가속기사용가능
+GPU: Graphic Processing Unit
+TPU: Tensor Processing Unit
+머신러닝과 AI 등의특화된연산을지원하는하드웨어
+◆다양한라이브러리 및프레임워크 지원
+처음사용하는모듈들은설치하지않아도 import 해서사용가능
+설치가필요한모듈은 pip install 명령어로설치할수있지만 ,
+연결세션이종료되면다시설치해야함

@@ -1,11 +1,15 @@
-• 
-[ilOIEi 프레임 
-'（-’강원LRS공유대악 
-e[-ti 이터 내보내기 
-0 R 에서 생성된 객체를 csv나 txt 파일로 내보낼 수 있음 
-- 예제 
-dat <- data.frame(gender = c(11female11, 11male11, 11male11, 11female11), age = 
-c(53.5, 36.3, 66.9, 20.3), grade = c(11A11, 11C11, 11A11, 11811)) 
-write.table(dat, file = 11mydata.txt11) # txtIIJ-일로 저장 
-write.csv(dat, file = 11mydata.csv11) # csvIIJ-일로 저장 
-getwd() # Check the working directory (files are in it) 
+HL7 메시지실습
+13리소스의개념과구성
+리소스 (R-Resources)
+◆논리적으로 분리된 작은 데이터 교환 단위
+◆최소 트랜잭션 단위이자 헬스케어 분야의 “관심 개념”
+HL7 V2 의Segment, HL7 V3 의CMET 와유사
+•무조건 작다고 해서 리소스가 될수없고, 헬스케어 분야의 관심 개념이 될수없음
+◆리소스의 종류
+병원 행정 분야(Administrative)
+•환자, 실무자 , 조직(Patient, Practitioner, Organization)
+임상 분야(Clinical Concepts)
+•알레르기 , 상태, 가족, 병력, 관리 계획(Allergy, Condition, Family, History, Care 
+Plan)
+인프라 분야(Infrastructure)
+•문서, 메시지 , 프로파일 , 적합성 (Document, Message, Profile, Conformance)

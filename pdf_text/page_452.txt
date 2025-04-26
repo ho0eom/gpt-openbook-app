@@ -1,9 +1,0 @@
-·실습매재 
--
-예제 (10) 코드 
-# 산점도행렬 
-nrow(dat2_scale) #1711 
-subdat2_scale <-
-dat2_scale[sample(1 :nrow(dat2_scale), 100),] 
-pairs(subdat2_scale, lower.panel = NULL) 
-'（-’강원LRS공유대악 

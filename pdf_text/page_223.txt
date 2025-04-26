@@ -1,8 +1,9 @@
-.[R] 상자그림 
-e[-ti 이터의 특정 카테로리 별 상자그림을 그리고자 할 때는 
-formula형태로 기입이 가능함 
-- 예제 
-boxplot(count ~ spray, data = lnsectSprays, col = "lightgray") 
-boxplot(decrease ~ treatment, data = OrchardSprays, col = 
-"bisque", log = "x", horizontal=TRUE) 
-'（-’강원LRS공유대악 
+DICOM 소개및개념
+31DICOM 연결
+데이터전송요청
+◆클라이언트가 C-STORE -RQ를서버로전송
+영향을받는 Transfer 및Abstract Syntax 의SOP 클래스 UID 및SOP 인스턴스 UID를
+보냄
+요청패키지의데이터길이를뜻하는 Presentation Data Value 를보내게됨
+PDV 프레임으로 영상전송
+◆클라이언트는 실제픽셀데이터 (P-DATA)를전송함

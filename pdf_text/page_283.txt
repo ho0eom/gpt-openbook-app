@@ -1,0 +1,5 @@
+DICOM 실습
+47Pydicom  실습하기
+Add dictionary items in the standard DICOM dictionary
+◆표준 다이콤 딕셔너리에 내가 원하는 딕셔너리 아이템을 추가하는 실습
+결과값

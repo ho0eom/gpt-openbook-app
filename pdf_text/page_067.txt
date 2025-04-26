@@ -1,8 +1,9 @@
-• 
-매 ROI U?(Why R?) 
----------
-、.. __ .... _ 
-/』-－`\｀、
-_、＼
-` 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+39HL7 메시지세그먼트종류
+PV1 - Patient Visit
+특별 호의 제공 여부(Y/N)◆Courtesy Code
+과거 신용 등급 확인용 코드◆Credit Rating
+◆Contract Code
+미결제 잔액 정산을 위한 보증인과의 계약 유형 식별 코드
+◆Contract Effective Date
+계약 시작일

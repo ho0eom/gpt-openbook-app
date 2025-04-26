@@ -1,16 +1,7 @@
-·조건문if 
-e 조건문 if-else 
-0 조건문 
-if의 논리적 조건이 맞을 경우에는 해당 명령문을, 
-맞지 않은 경우 조건문 
-else의 명령문을 실행함 
-- 예제 
-my_sign <- function(x) { 
-if (x == 0) { 
-} 
-print("x is zero") 
-} else { 
-if (abs(x) == x) print("x is positive") 
-if (abs(x) != x) print("x is negative") 
-} 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+9FHIR 리소스
+리소스의결합
+◆참조
+리소스들을 결합하여컬렉션으로 만드는것
+리소스는서로광범위하게 참조하여정보망형성
+리소스간참조

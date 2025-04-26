@@ -1,6 +1,13 @@
-• 
-그래프U 표를 이응한 기술통계 
-'（-’강원LRS공유대악 
-e 하나의 변수매 적용 가능한 기술통계의 몌 
-막대그림 
-상자그림 
+FHIR 리소스실습
+18FHIR리소스란
+orjson  지원
+◆orjson  사용가능
+orjson  광범위지원, 자동활성화가능
+가장빠른 Python 라이브러리이며 , 표준 json 라이브러리보다 더정확하다고 함
+orjson을프로젝트종속성으로 만들면됨
+필드유형지원
+◆pydantic  라이브러리의 필드유형을지원함
+모든 FHIR resources type 은pydantic  라이브러리의 필드유형사용가능
+fhirtypes.py 모듈에모든 FHIR 리소스포함
+유효성검사기자동트리거
+참고글 : https://github.com/ nazrulworld/  fhir.resources  /issues/46

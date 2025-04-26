@@ -1,18 +1,5 @@
-.[R] 막대그림 생성 
-e 막대그림은 
-barplot함수를 이용하여 생성합 
-O table로 생성된 도수분포표를 입력해야 합 
-'（-’강원LRS공유대악 
-- 예제 
-I barplot(table(grade)) 
-6 
-5 
-4 
-3 
-2 
-。
-A 
-B 
-c 
-D 
-F 
+FHIR 리소스실습
+35FHIR.Resource  사용하기
+FHIR Narrative 사용하기
+◆(pretty_print  = false)
+모든태그가공백없이붙어서한줄로출력

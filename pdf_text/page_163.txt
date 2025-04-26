@@ -1,31 +1,12 @@
-80 ≤𝑥< 90B
-70 ≤𝑥< 80C
-60 ≤𝑥< 70D60 미만F
-·조건문if 
-e 조건문을 활용한 점수 등급 매기기 (2) 
-- 예제 
-grading2 <- function(score) { 
-if (score < 60) { 
-grade <- "F" 
-} else if (score < 70) { 
-grade <- "D" 
-} else if (score < 80) { 
-grade <- "C" 
-} else if (score < 90) { 
-grade <- "B'' 
-} else { 
-grade = "A" 
-} 
-return(grade) 
-} 
-'（-’강원LRS공유대악 
-score 
-| 
-grade 
-90 이상 
-A 
-B 
-C 
-D 
-60 미만 
-F 
+FHIR 리소스실습
+11FHIR 리소스
+리소스구성요소
+◆확장(Extension)
+FHIR에확장을위한표준프레임워크 존재
+파이어표준에서제공하지않는새로운콘텐츠를추가하고싶을때사용하는기능
+Xml에서확장(Extension) 태그안에들어있는내용
+HL7 V2의확장세그먼트 : Z 세그먼트
+HL7 V3, CDA
+•확장은가능하나외부네임스페이스를 별도로사용
+•동작에는문제가없지만스키마가깨지는결과를초래
+확장기능을허용하는것은더효율적이고 유지보수측면에서도 좋음

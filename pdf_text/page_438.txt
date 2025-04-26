@@ -1,9 +1,0 @@
-·실습매재 
-- 예제 (6) 코드 
-#분할표 
-Status <- factor(dementia$Status, levels = c("Normal", "MCI", "Dementia")) 
-APOE4 <- factor(dementia$APOE4, levels = 0:2) 
-tab <- table(Status, APOE4) 
-round(prop.table(tab, margin = 1), 2) # 각 행의 합 = 1 
-round(prop.table(tab, margin = 2), 2) # 각 열의 합 = 1 
-'（-’강원LRS공유대악 

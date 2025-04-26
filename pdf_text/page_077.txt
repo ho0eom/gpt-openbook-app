@@ -1,15 +1,5 @@
-‘Modify Keyboard shortcuts’에서‘Run Current Line or Selection’이라는Name항목옆의Shortcut을누른후변경하고자하는단축키(예: Ctrl + R)을입력하여변경할수있음단축키변경방법
-.RStudio 설정 
-(0 RStudio의 설 정 
-0 RStudio는 여러 기능을 제공하지만 그만큼 시각적으로 
-복잡함을 느낄 수 있음 
-> 필요한 패널들만을 표시합 
-> 실행에 관한 단축키도 핀한 키로 수정이 가능함 
-0 D 주천 실행키 : Ctrl + R 
-> 눈의 피로도가 적은 테마를 선택해야 합 
--
-Rstudio의 ‘Tools' 
-'Modify Keyboard shortcuts' 메서 
-'Run Current Line or Selection’ 이라는 Name항목 옆의 Shortcut을 
-누른 후 변경하고자 하는 단축키(예: Ctrl + R) 을 입력하여 변경할 수 있음 
-강원LRS공유대악 
+HL7 메시지와트랜잭션
+49환자입원예시
+환자입원 : 이벤트코드 A01
+◆다음과 같은 ADT 메시지를 보낸다고 가정
+◆MSH 세그먼트

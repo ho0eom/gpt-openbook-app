@@ -1,15 +1,4 @@
-·주가설지 
-(0RStudio 
-0 R 프로그래밍을 위한 사용자 인터페이스임 
-O 다양한 기능을 쉽게 제공함 
-0 https://www.rstudio.com _ 
-RStudio Desktop 
-RStudio Desktop Pro 
-Open Source Edition (AGPL v3) 
-Posit Licensing Agreement 
-Free 
-$995 Per Year 
--
--
-_솔 이미지 줄저 : https://www.rstud1o.com 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+HL7 트랜잭션
+환자입원예시
+환자퇴원예시

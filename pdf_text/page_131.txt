@@ -1,10 +1,15 @@
-• 
-[ilOIEi 프레임 
-'（-’강원LRS공유대악 
-e[-ti 이터 프레임의 활용 
-O 테이터 프레임에서는 요인을 적극 활용해야 합 
-- 예제 
-dat <- data.frame(gender = c(11female11, 11male11, 11male11, 11female11), age = 
-c(53.5, 36.3, 66.9, 20.3), grade = c(11A11, 11C11, 11A11, 11811)) 
-dat$gender <- factor(dat$gender) 
-dat$grade <- factor(dat$grade, levels = c(11A11, 11811, 11C11, 11011, 11F11)) 
+HL7 메시지실습
+9FHIR의패러다임
+FHIR의패러다임
+◆FHIR 는4개의 상호운용성 패러다임을 지원함
+◆RESTful
+명시적이고 안정적인 URI를가지는 리소스
+•URI는홈페이지 주소인 URL과비슷함
+•항목의 이름, 동작, 의미, 속성, 위치 등을 명시적으로 가지고 있으며 꽤추상적인 형태
+형식: XML/JSON(+RDF)
+HTTP 를이용한 데이터 교환(보안: SSL/ Oauth )
+REST 의동작- CRUD(E)
+REST  형식을 따른다는 것
+•간단하고 안정적인 인터페이스 지원
+•고성능이며 확장성이 좋음
+•시각적인 프로세스를 제공하고 , 이식성과 신뢰성이 높음

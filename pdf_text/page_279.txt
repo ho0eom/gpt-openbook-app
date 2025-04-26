@@ -1,16 +1,6 @@
-•Sex,Race,Education[뇌와관련된변수]
-•Ventricles, Hippocampus, Whole Brain, Entorhinal cortex, Fusiform gyrus, Middle temporal gyrus
-• 
-:1:I DH 빅 [1l0l E·l 
-- 예제 
-지매 빅테이터에서의 다음 변수들의 형태를 쿠분하여 보자. 
-[인구학적 변수] 
-Sex, Race, Education 
-[뇌와 관련된 변수] 
-Ventricles, Hippocampus, Whole Brain, Entorhinal cortex, Fusiform 
-gyrus, Middle temporal gyrus 
-질적~ 양적 
-二이산 
-순서 
-연속 
-'（-’강원LRS공유대악 
+DICOM 실습
+43Pydicom  실습하기
+Decode and plot Waveform Data
+◆그래프 출력 및그래프의 제목과 x, y축의 라벨 부여
+x축단위는 세컨드 , y축단위는 마이크로 볼트
+채널 인덱스에 (11 이하의 )0이아닌 다른 숫자를 넣어 다른 채널의 심전도 파형 확인

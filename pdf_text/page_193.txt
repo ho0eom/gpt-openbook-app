@@ -1,9 +1,2 @@
-.[R] 파이그림 생성 
-{0pie는 여러 인수를 제공하여 막대그립을 다양하게 
-꾸밀수있음 
-'（-’강원LRS공유대악 
-- 예제 
-pie(tab|e(grade), co| = c("b|ue", "red'’, "g‘rey", "gr전으p" ， "purp|e"), 
-radius = 0.8, border = FALSE, labels = c("A(>=90)", "B", "C", "D", "F")) 
-F 
-D 
+DICOM 소개및개념
+DICOM 소개및개념

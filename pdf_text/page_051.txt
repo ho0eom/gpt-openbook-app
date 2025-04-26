@@ -1,55 +1,10 @@
-• 
-생존 자료(Survival data) 
-e 특정 사건(OIi : 사망)이 발생할 때까지 걸리는 시간을 측정한 자료 
-D Survival data 혹은 Time-to-event data 
-0 COVID-19 의 잠복기, 암환자의 생존 시간 등 
-'（-’강원LRS공유대악 
-Strata +- sex=1 -+. sex=2 
-1.00 
-505 
-752 
-ooo 
-z
-l
-―
-1
-q
-e
-q응
--
-e
->
-I
-A
-J
-n
-S
- 
-`,'` 
--' 
--J 
-+ 
-댜
- 
-+, 
-`- 
-,' 
-'- 
--, 
-+
-十
-,'+ 
-f, 
-i 
-\ 
-\ 
-+` 
-.'+ 
-,- 
-0.00 드 
-。
-250 
-500 
-Time 
-750 
-1000 
+HL7 메시지와트랜잭션
+23ADT 메시지의세그먼트
+PID - 환자식별 Patient Identification
+◆Date of Birth
+환자의 생년월일
+◆Sex
+환자의 성별
+◆Patient Name
+환자 이름
+컴포넌트 형식: 성, 이름, 중간 이름, 접미사 , 접두사 , 학위

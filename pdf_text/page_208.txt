@@ -1,14 +1,3 @@
-.[R] 히스토그램 
-(0[R] 히스토그램 활용 
-O 두 그룹 테이터에 대한 히스토그램 도식화 
-> 나열하여 표시하기(R 코드) 
-x <- rnorm(100, 40, 10) 
-y <- c(rnorm(90, 40, 10), rnorm(10, 80, 5)) 
-# draw two histograms 
-par(mfrow = c(1, 2)) 
-hist(x, main = "Group A", xlab = "raw_score", xlim = c(O, 70), 
-freq = F) 
-hist(y, main = "Group B", xlab = "raw_score", xlim = c(O, 100), 
-freq = F) 
-dev.off() ＃도화지 조기화 
-'（-’강원LRS공유대악 
+DICOM 소개및개념
+16DICOM 객체
+DICOM 데이터모델

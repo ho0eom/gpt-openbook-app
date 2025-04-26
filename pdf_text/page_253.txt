@@ -1,86 +1,15 @@
-.
-[R] 분할표 
-(0xtabs함수를 이용하여 2 개 이상으 
-변수들로부터 분할표를 작성할 수 있음 
-” 예제 : 캘리포니아 버클리 대학교의 대학원 입학 테이터 
-> dat <- as.data .frame(UCBAdmi.ssi.ons) # i.mporti.ng data 
-> dat 
-Admi.t Gender Dept Freq 
-1 
-Admi.tted 
-Male 
-A 512 
-2 
-Rej ected 
-Male 
-A 313 
-3 
-Admi.tted Female 
-A 
-89 
-4 
-Rejected Female 
-A 
-19 
-5 
-Admi.tted 
-Male 
-B 353 
-6 
-Rej ected 
-Male 
-B 207 
-7 
-Admi.tted Female 
-B 
-17 
-8 
-Rejected Female 
-B 
-8 
-9 
-Admi.tted 
-Male 
-C 120 
-10 Rej ected 
-Male 
-C 205 
-11 Admi.tted Female 
-C 202 
-12 Rejected Female 
-C 391 
-13 Admi.tted 
-Male 
-D 138 
-14 Rej ected 
-Male 
-D 279 
-15 Admi.tted Female 
-D 131 
-16 Rejected Female 
-D 244 
-17 Admi.tted 
-Male 
-E 
-53 
-18 Rej ected 
-Male 
-E 138 
-19 Admi.tted Female 
-E 
-94 
-20 Rejected Female 
-E 299 
-21 Admi.tted 
-Male 
-F 
-22 
-22 Rej ected 
-Male 
-F 351 
-23 Admi.tted Female 
-F 
-24 
-24 Rejected Female 
-F 317 
-'（-’강원LRS공유대악 
+DICOM 실습
+17DICOM 연결및기타정리
+DICOM 무차별모드
+◆네트워크 통신에서 사용하는 용어
+◆수신된 프레임이 자신과 상관없는 목적지 주소를 갖는데도 이를 모두 수신하는 모드
+두entity 간의 DICOM 통신
+•두시스템 모두에 올바른 정보가 입력된 경우에만 작동할 수있음
+대소문자를 구분하는 시스템
+•일반적이라고 볼수없음
+DICOM Modality 작업목록의이슈
+1.통신 불가
+2.오류 메시지가 없으나 환자 목록이 표시되지 않음
+3.환자 목록은 표시되나 , 모든 Modality 의환자 목록이 포함됨
+4.환자 목록은 표시되나 , 예상한 목록이 아님
+5.오류 메시지 나타남

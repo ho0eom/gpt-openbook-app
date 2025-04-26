@@ -1,9 +1,6 @@
-• 
-[ilOIEi 분석 
-e 탐색적 테이터 분석의 역사 
-0 197_7 년 
-튜키(John W. Tukey) 는 탐색적 테이터 분석에서의 
-젓 저서인 "Exploratory Data Analysis” 를 발간람 
-_솔 이미지 줄저 : https://en.wikipedia.org/wiki/John_Tukey 
-https ://www. amazon . in/Exploratory-Ana lysis-Add ison-Wesley-Behavioral-Sc ience/dp/0201076160 
-'（-’강원LRS공유대악 
+DICOM 실습
+33Pydicom  실습하기
+DICOM 파일읽기
+◆CT_small.dcm  파일 읽기
+dcmread
+•결과창

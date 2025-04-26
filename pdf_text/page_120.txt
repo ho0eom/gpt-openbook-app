@@ -1,52 +1,14 @@
-· 리스트 
-e 리스트의 개요 
-” 예제 
-x <- c("a", "b") 
-m <- matrix(c(T, F, F, T), 2, 2) 
-a <- array(1 : 12, dim = c(2,2,3)) 
-(I <- list(x, m, a)) 
-'（-’강원LRS공유대악 
-> x <- c("a" , "b") 
-> m <- matri.x(c(T, F, F, T), 2, 2) 
-> a <- array(l:12, di.m = c(2,2,3)) 
-> (l <- li.st(x, m, a)) 
-[[1]] 
-[1] "a" "b" 
-[[2]] 
-[,1] 
-[,2] 
-[1, ] 
-TRUE FALSE 
-[2 , ] FALSE 
-TRUE 
-[[3]] 
-’ ’ 
-1 
-[, 1] [ , 2] 
-[1,] 
-1 
-3 
-[2 , ] 
-2 
-4 
-’ ’ 2 
-[, 1] [ , Z] 
-[1,J 
-5 
-7 
-[Z , ] 
-6 
-8 
-’ ’ 3 
-]1
-2 
-211 
-’ 
-[ 
-]90 
-11 
-’ 
-[ 
-]] 
-’, 
-clm-
+HL7 메시지실습
+정리하기
+32⚫VS Code 설치및실행하기
+▪파이썬 프로그래밍을 지원하는 IDE 중가장많이사용하는
+Visual Studio Code(VS Code)
+▪Python, Darcula 2.0 Python Adapted, Python Type Hint, 
+Python Extended 설치VS Code 설치및실행하기
+⚫코드작성및실행하기
+▪코드작성
+▪print("Hello world")
+▪print("Nice to meet Visual Studio Code")
+▪디버깅 실행과 기능
+▪특정모듈설치하기
+▪웹페이지 크롤링

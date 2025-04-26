@@ -1,32 +1,10 @@
-.R의 작업 환경 
-(011H 키지 라이브러리 
-0 주요 패키지는 R CRAN (Comprehensive R Archive Network) 에서 
-살펴볼 수 있음 
-> https://cran.r-project.org/web/packages/ 
-Ava i I ab I e Packages 
-Currently, the CRAN package repository features 19081 avail able packages 
-TabIe of availab|e 固쇼죠但; , sorIed bv date of pubhcatl0n 
-TabIe of availab|e R죠上죠탁, sorted bv name 
-Contributed Packages 
-'（-’강원LRS공유대악 
-~ 
-aim to provide some guidance which packages on CRAN are relevant for tasks related to a certain topic. They provide tools to automatically install all packages from each view. Currently, 42 
-views are available 
-Ins tallation of Packages 
-Please type he lp(" 1'1STALL") o 『help(" icstal I .packaoes") in R for information on how to install pack 
-or information on how to install packages from this repository. The manual ~ 
-(also contained in the R base sources) 
-explains the process in detail 
-Package Check Resu I t s 
-All packages are tested regularly on mach ines running ~ 
-~ 
-macOS (formerly OS X) and Windows 
-The results are summarized in the ~ 
-(some ~요 
-are also available) 
-Wr i t i ng Your Own Packages 
-The manual ~~ 
-(also contained in the R base sources) explains how to write new packages and how to contribute them to CRAN 
-Repos i tory Po I i c i es 
-The manual ~RQillQ!:Y__&!icy [!:Qf] describes the policies in place for the CRAN package repository 
-_솔 이미지 줄저 : https://cran.r-project.org/web/packages/ 
+FHIR 리소스실습
+학습내용
+학습목표
+2
+FHIR 리소스
+FHIR 리소스학습하기
+FHIR 리소스사용하기
+FHIR 리소스에대해이해하고설명할수있다.
+FHIR 리소스를학습하여설명할수있다.
+FHIR 리소스를사용하는법에대해설명할수있다.

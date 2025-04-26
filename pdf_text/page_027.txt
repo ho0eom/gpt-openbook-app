@@ -1,6 +1,15 @@
-크래머라오
-(C. R. Rao; 1920∼; 미국)
-브래들리에프론
-(Bradley Efron; 1938∼; 미국)
-데이비드콕스
-(David Cox; 1924∼2022; 영국)통계학의역사
+다양한표준소개및HL7 개요
+정리하기
+28⚫트리거이벤트 (Trigger Events)
+▪데이터 송수신을 일으키는 일종의 액션
+⚫Unsolicited update( 자동갱신)HL7 기본용어와개념
+⚫ACK
+▪메시지가 전송되었을 때수신측시스템은 그메시지를 제대로 수신했다는 뜻
+⚫기본동작모드(Original mode)
+▪메시지가 전송될 때ACK는App level 에서해당메시지를 수신했다는 것을알림
+⚫고급동작모드(Enhanced mode)
+▪Accept(Commit) ACK
+▪Application ACK
+⚫쿼리(Query)
+▪데이터베이스에 정보를 요청하는 행위
+▪한시스템에서 다른시스템으로 쿼리를 보내면 다른데이터 교환이 발생함

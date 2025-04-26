@@ -1,21 +1,4 @@
-.[R] 상자그림 
-(0boxplot 함수를 이용하여 상자그림 생성 
-'（-’강원LRS공유대악 
-” 예제 
-I boxplot(trees$Height) 
-") 
-o -
-음-
-LO _ 
-F 
-O
--
-F 
-LO _ 
-c.o 
-— 
-............. 
-:]]
-....... : 
-..... — 
-상자그림 
+DICOM 소개및개념
+25DICOM 서비스와역할
+DICOM 역할
+◆SCP, SCU 역할구분

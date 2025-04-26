@@ -1,16 +1,3 @@
-·합수 
-e 함수의활용 
-O 함수메서의 input에 기본값 지정이 가능함 
-” 예제 
-myfn <- function(x, y = 2) { 
-return(x + y) 
-} 
-myfn(x = 4) 
-> myfn <- function(x, y = 2) { 
-+ 
-return(x + y) 
-+ } 
-> 
-> myfn(x = 4) 
-[1] 6 
-강원LRS공유대악 
+HL7 메시지실습
+20리소스의확장
+확장퍼블리시

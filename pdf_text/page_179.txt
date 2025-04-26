@@ -1,38 +1,6 @@
-• 
-[R] 도수분포표 생성 
-(0[R] 도수분포표 
-- 예제 : 16 명의 학생의 성적 조사 
-A 
-B 
-B 
-C 
-C 
-A 
-C 
-B 
-D 
-A 
-A 
-B 
-B 
-F 
-D 
-B 
-'（-’강원LRS공유대악 
-人
-o1X-,-,
-도수 
-A 
-4 
-B 
-6 
->>> 
-C 
-3 
-D 
-2 
-F 
-1 
-합계 
-16 
-도수분포표 
+FHIR 리소스실습
+27Google Colaboratory
+Colab  실습
+◆Colab  AI
+Colab에서운영하는챗봇으로 Colab  사용과관련된다양한질문가능
+Colab  AI 버튼클릭후사용

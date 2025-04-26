@@ -1,12 +1,14 @@
-·실습매재 
-- 예제 (2) R 코드 
-#함수 적용 예서 
-my_plot(dementia$APOE4, dementia$Status) 
-my_plot(dementia$APOE4, dementia$Status, na.rm = TRUE) 
-my_plot(dementia$APOE4, dementia$Status, na.rm = TRUE, main = "APOE4") 
-par(mfrow = c(1, 3)) 
-varset <- c("APOE4", "Race", "Marital_status") 
-for (i in 1 :3) { 
-my_plot(dementia[,varset[i]], dementia$Status, na.rm = TRUE, main = varset[i]) 
-} 
-'（-’강원LRS공유대악 
+DICOM 실습
+정리하기
+54⚫DICOM 파일
+▪CT_small.dcm  파일읽기
+▪요소수정하기
+▪파일요소추가하기
+▪특정태그종류삭제하기
+▪Analyse  differences between DICOM files
+▪Downsize MRI image using pydicom
+▪Decode and plot Waveform Data
+▪Read RTPLAN DICOM and list information
+▪Format the output of the data set printing
+▪Add dictionary items in the standard DICOM dictionary
+▪Read a Dataset and plot Pixel DataPydicom실습하기

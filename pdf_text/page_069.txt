@@ -1,31 +1,19 @@
-. R 설지하기 
-(0 http://www.r-project.org/ 
-O 왼쪽에 [CRAN] 클릭 후 Korea를 잦아 아무 링크나 클릭하기 
-[Home] 
-Download 
-두 
-R Project 
-About R 
-Logo 
-co ntrtbutors 
-What's New? 
-Reporting Bugs 
-Conferences 
-Search 
-Get Involved: Mailing Lists 
-Get Involved: Contributing 
-_솔 이미지 줄저 : http://www.r-project.org/ 
-The R Project fo 『Statistical Computing 
-Getting Started 
-R is a free softwa 『e envi:ronment for statistical computing and graphics. It compiles and runs on a wide 
-variety of UNIX pl atfo 『ms , Windows and Macos_ To download R, pl:ease choose your preferred CRAN 
-mirror. 
-If you have questions about R lil<e how lo download and install the sonware, o 「wllat the license te『ms
-are, please 『ead our answers lo frequently asKed questions before you send an email 
-News 
-• R version 4.2.2 (Innocent and Trusting} has been released, on 2022-10-31 _ 
-• R version 4.1.3 (One Push-Up) was released on 2022-03-10_ 
-• Thanks to the organisers of useR! 2020 fa 「a successfu,1 online conference. Recorded tutorials and 
-talks from the confe『en ce a 「e available on the R Consortium YouTube channel 
-• You can support the R Foundation with a fenewable subscription as a supporting me mbe 「
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+41HL7 메시지세그먼트종류
+PV1 - Patient Visit
+계약 금액
+계약
+보증인이 각기간마다 지불해야 하는 금액이 포함◆Contract Amount
+◆Contract Period
+계약 기간
+사용자가 정의한 기간에 대한 계약 기간 지정
+◆Transfer to Bad Debt Date
+불량 부채 전환 날짜
+계정이 불량 부채 상태로 전환된 날짜가 포함됨◆Interest Code
+이율 코드
+미결제 금액: 보증인에게 부과될 이자 금액을 나타냄
+◆Transfer to Bad Debt Code
+불량 부채 전환 코드
+해당 계정
+•불량 부채로 전환되었음을 나타냄
+•불량 부채로 전환된 이유 제공

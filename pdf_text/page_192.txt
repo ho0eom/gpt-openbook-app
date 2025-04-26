@@ -1,9 +1,12 @@
-.[R] 파이그림 생성 
-{0pie는 여러 인수를 제공하여 막대그립을 다양하게 
-꾸밀수있음 
-0 co| : 색깔 변경(개별 가능) 
-0 density 
-0 radius 
-0 border 
-O labels 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+정리하기
+40⚫Attribute 속성으로 Resource 생성
+▪Dictionary Type 로Resource Class 객체생성
+▪JSON Object Type 로parse_obj  메서드파싱후Patient Resource 생성
+▪JSON Object Type 로Python Type 으로동일객체생성
+▪Resource Factory Function 으로Resource 생성FHIR 리소스사용하기
+⚫Resource 의Narrative 코드작성
+▪그레이엄그리브제정규칙이용
+⚫XML지원기능을사용한 Patient Resource 생성
+▪JSON 문자열생성후XML 문자열출력
+▪XML 문자열을이용하여 JSON 문자열생성

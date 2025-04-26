@@ -1,12 +1,5 @@
-·합수 
-e 친구골려주기 
-O 더하기(+) 함수의 수정 
-” 예제 
-'+' <- function( ... ) { 
-x <- sum(c(. .. )) 
-sum(x, sample(c(1, 0), 1 )) 
-} 
-3+2 # repeat until it gives 6 
-rm('+') # going back to normal (removing the 
-function) 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+FHIR 프로파일 , 적합성 , 구현
+FHIR 프로파일
+FHIR 적합성
+FHIR 구현

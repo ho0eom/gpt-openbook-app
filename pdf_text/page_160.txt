@@ -1,14 +1,14 @@
-·조건문if 
-e 조건문 
-if의 활용 
-0 조건문 if 속에 다른 조건문 
-if도 가능함 
-- 예제 
-my_sign <- function(x) { 
-} 
-if (x == 0) print("x is zero") 
-if (x != 0) { 
-} 
-if (abs(x) == x) print("x is positiveW") 
-if (abs(x) != x) print("x is negative") 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+8FHIR 리소스
+리소스란
+◆세가지의구조
+◆속성•리소스에없는특성을커스터마이징
+확장(Extension )
+•인간이읽기쉽게만든 요약구조
+서술형 (Narrative )
+정형데이터 (Defined Structured Data)
+계층구조
+데이터유형또는중첩요소: HL7 표준에서도 봤던다양한데이터형식과유사한속성
+카디널리티 : 필수여부와반복횟수를합친데이터집합의크기의개념
+정의
+매핑

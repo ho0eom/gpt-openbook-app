@@ -1,22 +1,22 @@
-.
-[R] 막대그림 생성 
-(0 barplot의 활용 
-0 barplot은 각 카테고리의 수준별 빈도를 쉽게 도식화할 때 사용되기도 함 
-'（-’강원LRS공유대악 
-- 예제 
-# Formula method 
-barplot(cbind(Employed, Unemployed) ~ Year, data = longley) 
-00SOOVOOCOOCOOLC 
-1947 
-1948 
-1949 
-1950 
-1951 
-1952 1953 
-1954 
-1955 1956 
-1957 
-1958 1959 
-1960 1961 
-1962 
-Year 
+FHIR 리소스실습
+정리하기
+38⚫FHIR 뜻
+▪F-Fast(설계및구현하기‘빠름’ )
+▪H-Healthcare( 헬스케어분야)
+▪I-Interoperability( 상호운용성 )
+▪R-Resources( 리소스 ; 빌딩블록)FHIR 리소스
+⚫FHIR매니페스토
+▪개발자에초점
+▪필수시나리오집중지원
+▪웹기반기술활용
+▪인간의가독성 : 리소스구조의서술형
+▪무료및재배포가능
+▪다양한패러다임및아키텍처지원
+⚫리소스란
+▪FHIR 빌딩블록
+▪논리적으로 분리된작은데이터교환단위
+▪최소트랜잭션단위이자헬스케어분야의관심개념
+⚫세가지구조
+▪확장(Extension)
+▪서술형 (Narrative)
+▪정형데이터 (Defined Structured Data)

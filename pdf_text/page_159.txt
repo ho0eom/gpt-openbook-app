@@ -1,13 +1,17 @@
-·조건문if 
-e 조건문 
-if의 활용 
-0 조건문 
-if에 실행될 코드가 
-2줄 이상이면 {｝틀 이용함 
-- 예제 
-my_sign <- function(x) { 
-if (abs(x) == x) { 
-print("x can be positive") 
-print("x can be zero") 
-if (abs(x) != x) print("x is negative") 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+7FHIR 리소스
+리소스
+◆FHIR 빌딩블록
+◆논리적으로 분리된작은데이터교환단위
+◆최소트랜잭션단위이자헬스케어분야의관심개념
+◆HL7 V2의메시지와유사
+◆HL7 V3의CMET(Common Message Element Type) 과유사
+리소스란
+◆세가지의대분류
+◆독립적인요소
+환자(Patient): 적당함
+성별(Gender): 너무작음
+시술(Intervention): 너무큼
+병원행정분야(Administrative )
+임상분야(Clinical Concepts)
+기반시설분야(Infrastructure )

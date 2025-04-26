@@ -1,19 +1,12 @@
-.[R] 히스토그램 
-(0hist함수는 여러 인수(argument)를 제공합 
-'（-’강원LRS공유대악 
-” 예제 
-hist(trees$Height, breaks = 20, freq = TRUE, col = "blue", 
-main = "My histogram", xlab = "Height") 
-My histogram 
-5 
-4321 
-AouanbaJLL 
-。
-\ \\ 
-[I] 
-65 
-70 
-75 
-Height 
-80 
-85 
+DICOM 소개및개념
+14DICOM 객체
+Value Length
+◆수치길이는수치필드의문자수이며 , 항상짝수여야함
+Value Field
+DICOM 수치표현(VR) - 암시적 /명시적
+◆암시적 VR Little Endian( 디폴트 )
+VR이제외되는 Little Endian
+◆명시적 VR Little Endian
+VR이반드시포함되어야 하는 Little Endian
+◆명시적 VR Big Endian
+VR이반드시포함되는 Big Endian( 잘사용하지않음)

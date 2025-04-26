@@ -1,14 +1,13 @@
-.[R] 상자그림 
-강원LRS공유대악 
-000 
-09 
-OV 
-oz 
-7 
-_j_ 
-— 
-........... . 
-! 
-Girth 
-Height 
-Volume 
+DICOM 소개및개념
+28DICOM 클래스와명령어
+DICOM UIDs(Unique Identifiers)
+◆DICOM은고유식별자인 UID를광범위하게 사용하여 SOP 클래스및전송구문을포함한
+다양한유형의객체를식별함
+DICOM 데이터모델의거의모든 Entity에는 UID가있음(Patient 제외)
+모든 SOP 클래스 , DICOM 객체에는 UID가있음
+•DICOM SOP 클래스 UID = UID 이름 + UID 값
+•UID가1.2.840.10008(UID root) 로시작하는지 검증(그렇지않으면비표준임 )
+장점
+•UID 값은고유하므로 확실하게구분가능
+단점
+•UID 이름은제한된설명으로인해구분이어려울수있음

@@ -1,6 +1,18 @@
-가우스
-(C.F. Gauss; 1777∼1885; 독일)
-파스칼
-(B. Pascal; 1796∼1874; 프랑스)
-라플라스
-(P.S. Laplace; 1749∼1827; 프랑스)이미지출처: https://en.wikipedia.org/wiki/Pierre-Simon_Laplace#/media/File:Laplace,_Pierre-Simon,_marquis_de.jpghttps://en.wikipedia.org/wiki/Blaise_Pascal#/media/File:Blaise_Pascal_Versailles.JPG,https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss#/media/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg17C후반~18C의초기통계학통계학의역사정규분포의확률밀도함수로해석
+다양한표준소개및HL7 개요
+19메시지의개념과구성
+필드(Field)
+◆필드(Field) 의개념
+HL7에서 문자열 (String) 로작성된 데이터
+•이필드에는 Null(“”) 값을 입력함으로서  메시지 전송을 통한 업데이트 시에 이전 값을
+생략함으로서 메시지 전송을 통한 업데이트 시에 이전값을 유지할 수있음
+각세그먼트가 정의된 내용으로 확인 가능
+필드는 가장 하위 구성요소임
+◆세그먼트 정의 시와 필드 속성으로 명시되는 내용들
+번호(Position)
+이름(Name)
+아이디 (ID Number)
+최대길이 (Maximum Length)
+필수 여부(Optionality)
+반복(Repetition)
+참조표 (Table)
+데이터 유형(Data Type)

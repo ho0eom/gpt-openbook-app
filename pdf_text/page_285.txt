@@ -1,9 +1,8 @@
-·실습매재 
-- 예제 (1) R 코드 
-# 빈도표와 도수분포표 
-tab <- table(dementia$Sex, dementia$Status) 
-tab_dat <- as.data.frame(tab) 
-colnames(tab_dat) <- c("Sex", "Status", "Freq") 
-barplot(Freq ~ Sex + Status, data = tab_dat, legend.text = c("Female", "Male"), 
-args.legend = list(x = "topleft", box.lty = O)) 
-'（-’강원LRS공유대악 
+DICOM 실습
+49Pydicom  실습하기
+Read a Dataset and plot Pixel Data
+◆데이터 세트를 읽어 픽셀 데이터를 그리는 실습
+출력된 결과
+•알수있는 사실
+128 x 128 짜리 영상
+2004 년1월19일에 찍은 영상

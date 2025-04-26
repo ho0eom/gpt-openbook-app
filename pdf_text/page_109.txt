@@ -1,11 +1,8 @@
-·행렬 
-e 행렬간의연산 
-O 행렬의 다양한 연산을 위한 함수 
-> 역행렬(Inverse matrix) : solve() 
-> 전 지 행 렬 (Transpose matrix) : t() 
-> 대 각합(Trace) : diag() 
-> 행 렬 의 자원 (Dimension) : dim() 
-” 예제 
-m <- matrix(1 :4, 2, 2) 
-solve(m); t(m); diag(m); dim(m) 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+21HL7apy 사용
+메시지만들기
+◆구조가 이미 지정된 메시지를 생성하거나 , 구조 없이 새메시지 생성 가능
+메시지내용채우기
+◆m과m2에내용을 넣는 작업
+메시지에 내용을 넣는 것은 Segment 를추가하는 것
+PID 세그먼트를 메시지에 추가하기 위해서 Segment 클래스를 이용하여 pid 객체를 생성

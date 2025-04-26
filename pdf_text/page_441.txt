@@ -1,8 +1,0 @@
-·실습매재 
-- 예제 (7) 코드 
-#빈도 
-Status <- factor(dementia$Status, levels = c("Normal", "MCI", "Dementia")) 
-APOE4 <- factor(dementia$APOE4, levels = 0:2) 
-tab <- table(Status, APOE4) 
-data.frame(tab) 
-'（-’강원LRS공유대악 

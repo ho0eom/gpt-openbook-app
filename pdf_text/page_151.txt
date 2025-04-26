@@ -1,10 +1,17 @@
-.R의 작업 환경 
-(0R의 기능 
-” 예제 
-s R 의 global environment 에 저장되어 있는 객제 탐색 
-Is() 
-' 모든 객제 삭제(메모리 관리) 
-rm(list = Is()) 
-' 메모리 관리 
-gc() 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+정리하기
+29FHIR 리소스 , 확장, 작동
+⚫리소스 (Resoorce )
+▪논리적으로 분리된 작은데이터 교환단위
+▪최소트랜잭션 단위이자 헬스케어 분야의 “관심 개념”
+⚫리소스의구성
+▪Extensions, Narrative,
+▪Defined Structured Data
+▪리소스는 연결구문기반
+XML 구조로 정의되어 있음
+⚫참조
+▪서로광범위하게 참조하여 정보망 형성
+⚫서술식 (Narrative)
+▪XHTML 이며HTML 과XML이결합된 형식사용
+⚫확장
+▪FHIR 에는'확장'을위한표준프레임워크가 있음

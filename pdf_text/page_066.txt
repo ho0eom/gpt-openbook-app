@@ -1,18 +1,10 @@
-·통계프로그램틀 
-EXCEL 
-SPSS 
-Stata 
-AMOS 
-LISREL 
-SAS 
-PASS 
-KESS 
-(Excel VBA) 
-pnsm 
-Python 
-Mplus 
-Minitab 
-Mathe 
-matica 
-'（-’강원LRS공유대악 
-JMP 
+HL7 메시지와트랜잭션
+38HL7 메시지세그먼트종류
+PV1 - Patient Visit
+환자 방문에 할당된 고유 번호◆Visit Number
+상환 출처 식별 목적의 기본 신용 등급
+필드 4회반복 입력 가능
+컴포넌트 형식: 신용등급 , 유효기간◆Financial Class
+◆Charge Price Indicator
+병실 및병상 요금 코드
+•당일, 야간, 자택, 긴급, 수술 등

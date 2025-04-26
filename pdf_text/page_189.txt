@@ -1,20 +1,3 @@
-.
-[R] 막대그림 생성 
-강원LRS공유대악 
-다양하게 
-막대그립을 
-제공하여 
-인수를 
-(0 barplot은 여 러 
-꾸밀수있음 
-- 예제 
-Bar Plot 
-6 
-5 
-4 
-A 
-B 
-c ” • 
-I 홀|'閩疆률 
-barplot(table(grade), density = 50, main = 'Bar Plot', xlab = 'Grade', 
-border = NA, col = c("gray", "pink", "gray", "gray", "gray")) 
+FHIR 리소스실습
+37FHIR.Resource  사용하기
+FHIR Narrative 사용하기

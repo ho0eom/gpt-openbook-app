@@ -1,0 +1,13 @@
+HL7 메시지와트랜잭션
+37HL7 메시지세그먼트종류
+PV1 - Patient Visit
+보행 상태◆Ambulatory Status
+•환자가 현재 걸어 다닐 수있는 상태인지 아니면 어떤 방식으로 움직일 수있는지 나타낸
+필드
+◆VIP Indicator
+VIP 여부(Y/N)
+◆Admitting Doctor
+입원책임의
+컴포넌트 형식: 의사 아이디 , 성, 이름, 중간 이름, 접미사 , 접두사 , 학위, 소스 테이블 아이디
+◆Patient Type
+환자 종류

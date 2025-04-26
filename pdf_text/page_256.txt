@@ -1,28 +1,13 @@
-.[R] 모자익그림 
-(0mosaicplot함수를 이용하여 모자익그립을 생성 
--
-예제 : 캘리포니아 버클리 대학교의 대학원 입학 
-'（-’강원LRS공유대악 
-mosaicplot(~Dept + Gender, data = UCBAdmissions, color = T) 
-UCB Admissions 
-A 
-c 
-D 
-.1apua8 
-으
-e
-w
- 
-으
-C
-l
-l
-E
-a
-L
-L
- 
-E 
-F 
-□D□ 
-Dept 
+DICOM 실습
+20Pydicom의개요및각종메서드
+pydicom 이란?
+◆DICOM 파일 작업을 위한 순수 Python 패키지
+python 방식으로 DICOM 데이터를 읽고 수정하고 쓸수있음
+모듈명 : pydicom
+최신버전 : v.2.4.4(2023.12.03.)
+python 3.7~
+◆주요 특징
+의료 영상, 보고서 , 방사선 치료 객체와 같은 DICOM 파일 작업을 위한 패키지
+프로젝트를 관리 가능하게 유지하기 위해 개별 SOP 클래스의 세부사항이나 다른 DICOM 
+사항은 다루지 않음
+◆설치 커맨드 및참고 문서

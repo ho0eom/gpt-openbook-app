@@ -1,21 +1,13 @@
-• 
-조건문 
-if와 반복문 for 
-e 조건문 
-if와 반복문 
-for의 활용 
-” 예제 
-2 성적 관련 테이터를 생성하여 각 학생의 점수를 등급화해보자. 
-dat <- data.frame(ID = 1 :4, score = c(60.5, 80.3, 90.9, 70.7)) 
-grade_all <- c() 
-for (i in 1 :4) { 
-} 
-score <- dat[i, 2] # the score of the i-th student 
-if (score >= 90) grade <- "A" 
-if (score >= 80 & score < 90) grade <- "B" 
-if (score >= 70 & score < 80) grade <- "C" 
-if (score >= 60 & score < 70) grade <- "D" 
-if (score < 60) grade <- "F" 
-grade_all[i] <- grade 
-dat$grade <- factor(grade_all, levels = c("A", "B", "C", "D", "F")) 
-'（-’강원LRS공유대악 
+FHIR 리소스실습
+14FHIR리소스란
+리소스생성
+◆특정리소스를생성할수있음
+Dictionary 사용
+JSON 문자열 / Object / 파일사용
+파이썬방식사용
+Resource factory function 사용
+◆FHIR Narrative 작성가능(JSON)
+XML처럼 JSON 문자열내부에 Narrative 작성가능
+Grahame Grieve 가제안한규칙을따라야함
+•HL7 V2, FHIR, ISO 21090 표준작성참여인원
+•Health Intersections 컨설팅회사운영

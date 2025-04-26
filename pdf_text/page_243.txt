@@ -1,45 +1,10 @@
-읊壅!J plot함수 
-e 의미와 주요 인자 및떠|제 
--
-예제 : 다음의 키와 몸무게에 plot을 적용해보자 
-떻
- 
-유
- 
-공
- 
-s 
-R 
-L 
-원
- 
-강
-•
- 
-• 
-• 
-dat <- data.frame(height = c(190, 165, 175, 150), weight = 
-c(80, 55, 60, 45)) 
-o <- order(dat$height) 
-dat[o,] 
-plot(dat[o,] , type = ''I") 
-• 
-• 
-• 
-• -
-08 
-SL 
-OL 
-99 
-09 
-SS 
-OS 
-SP 
-l46!8M 
-150 
-160 
-170 
-180 
-190 
-• 
-| 기본적으로 입력된 값을 오름자순으로 정렬하기 위한 인덱스를 반환하는 함수 
+DICOM 실습
+7DICOM 소개및객체정리
+DICOM 장치
+◆DICOM 표준에 따라 작동하는 소프트웨어가 내장된 컴퓨터 시스템
+Modality 또는 Application Entity(AE) 라부름
+◆대부분의 DICOM 장치는 진단 목적으로 사용되는 영상 생성
+◆모든 DICOM 영상에는 DICOM 전문 용어로 구성된 DICOM Object 라는 정보 포함
+모든 DICOM Object 가영상을 포함하는 것은 아님(참조용 보고서 등)
+DICOM Object 의구조
+◆DICOM Header + Image

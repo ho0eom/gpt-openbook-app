@@ -1,23 +1,15 @@
-·실습매재 
-- 예제 (2) R 코드 
-# 빈도표 함수 
-my_plot <- function(variable, status, legend.text = NULL, na.rm = FALSE, …) { 
-par <- list( ... ) 
-} 
-if (na.rm == TRUE) { 
-} 
-input <- data.frame(variable, status) 
-input_noNA <- na.omit(input) 
-variable <- input_noNA$variable 
-status <- input_noNA$status 
-tab <- table(variable, status) 
-tab_dat <- as.data.frame(tab) 
-args <- list() 
-args$formula <- as.formula("Freq ~ .") 
-par$data <- tab_dat 
-if(is.null(legend.text)) legend.text <- unique(variable) 
-args$1egend.text <- legend.text 
-args$args.legend <- list(x = "topright", box.lty = 0) 
-args <- c(args, par) 
-do.call(barplot, args) 
-'（-’강원LRS공유대악 
+DICOM 실습
+정리하기
+53⚫pydicom.charset
+▪convert_encodings
+▪decode_element
+▪decode_bytes
+▪encode_stringPydicom학습하기
+⚫pydicom.data
+▪get_charset_files
+▪get_palette_files
+▪get_testdata_file
+▪get_testdata_files
+⚫pydicom.dcmread
+⚫pydicom.dcmwrite
+⚫pydicom.uid

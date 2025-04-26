@@ -1,11 +1,12 @@
-·행렬 
-e 행렬의 활용 
-O 행렬의 행파 열에 각각 이름을 부여하여 구분 가능함 
-- 예제 
-' 행렬 생성 시에 부여 
-x <- matrix(1 :4, 2, 2, dimnames = list(c("a1 ", "a2"), c("b1 ", "b2"))) 
-S 벡터 생성 후에 부여(rownames라 colnames 함수 사용) 
-x <- matrix(1 :4, 2, 2) 
-rownames(x) <- c("a 1 " , "a2") 
-colnames(x) <- c("b7 ", "b2") 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+18HL7 메시지관련모듈
+필드파서
+◆parse_field  / parse_fields  함수 사용
+hl7apy.parser.parse_field() / . parse_fields ()
+•텍스트 , 이름, 버전, 인코딩 문자 등을 입력하여 메서드와 함께 사용 가능
+•ER7 방식의 세그먼트를 파싱하고 그인스턴스를 반환
+컴포넌트파서
+◆parse_component  / parse_components  함수 사용
+hl7apy.parser.parse_component() / .parse_components()
+•텍스트 , 이름, 데이터 유형, 버전, 인코딩 문자 등을 입력하여 메서드와 함께 사용 가능
+•ER7 방식의 컴포넌트를 파싱하고 그인스턴스를 반환

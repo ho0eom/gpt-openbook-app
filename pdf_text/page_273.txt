@@ -1,24 +1,6 @@
-• 
-A Story - How Companies Learn Your Secrets 
-ea1 국 전역매 2,000 여 개매 달하는 매장을 운영하는 타깃(Target) 
-'（-’강원LRS공유대악 
-Target 
-Corporation 
-Retail company 
-0} 
-~ target.com 
-v 
-Target Corporation is an American retail corporation. The eighth-
-largest retailer in the United States, it is a component of the S&P 
-500 Index. Its la『gest competitors. Walmart and Amazon.com, are 
-the first and second largest retailers, respectively. Wikipedia 
-Stock p 『ice : TGT (NYSE) $179.32 +0.74 (+0.41%) 
-Mar 11, 4:02 PM EST- Disclaimer 
-Brands: Target, Target Greatland, SuperTarget, CityTarget, 
-TargetExpress 
-Number of locations: 1,900 stores (2020) 
-Number of employees: -368,000 (2020) 
-CEO: Brian Cornell (Aug 12, 2014- ) 
-Headquarters: Minneapolis, Minnesota, United States 
-Subsidiaries: Target Brands, Inc, Shipt, Target Creative, MORE 
-_솔 이미지 줄저 : https://en.wikipedia.org/wiki/Target_Corporation 
+DICOM 실습
+37Pydicom  실습하기
+DICOM 파일요소삭제
+◆특정 태그 종류 삭제하기
+(0043, 104E)
+WindowCenter , ImageType [2]

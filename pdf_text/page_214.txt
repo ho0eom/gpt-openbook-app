@@ -1,15 +1,9 @@
-.
-[R] 즐기 잎 그림 
-(0stem함수를 이용하여 즐기 잎 그림 생성 
-O scale 인수를 이응하여 줄기와 잎 크기 변경이 가능함 
-- 예제 
-I stem(trees$Height, scale = 0.5) 
-> stem(trees$Hei ght, scale = 0.5) 
-The deci.mal poi.nt i s 1 di.gi.t(s) to the right of the 
-6 I 34 
-6 I 569 
-7 I 012244 
-7 I 55566789 
-8 I 000001123 
-8 I 567 
-강원LRS공유대악 
+DICOM 소개및개념
+22DICOM 서비스와역할
+DICOM 서비스의종류
+◆DICOM도서비스라는개념이있고트랜잭션에 참여하는시스템역할에따라서비스와
+공급자및사용자로나뉘게됨
+◆DICOM은영상정보관리를위한프레임워크를 제공
+DICOM은인쇄본및미리보기디스플레이 사이에서일관성 (CPI 등)을표준화
+DICOM 서비스
+◆X-RAY 촬영단계

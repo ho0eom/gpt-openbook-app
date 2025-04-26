@@ -1,12 +1,12 @@
-• 
-실험 자료(Experimental data) 
-e 연구자의 목적매 따라 계획된 실험으로부터 얻어지는 자료 
-0 연구자의 목적에 부합하는 실험을 구성하므로 
-가장 제계적이고 과학적인 자료 (예: 임상시험) 
-0 무작위배정 비교임상시험 
-(Randomized Controlled Trial; RCT) 
-> Gold standard 로 알려 져 있음 
-> 대제로 비용이 많이 들고 실험이 불가능한 경우도 발생함 
-> 윤리적인 문제로 인한 대조군파 저리군이 구성됨 
-(질병 주입 혹은 지료 중단) 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+29HL7 메시지세그먼트종류
+PID - Patient Identification
+◆SSN Number - Patient
+사회보장번호 (철도청 퇴직 번호)
+◆Driver’s Lic Num – Patient
+환자의 운전면허증 번호
+컴포넌트 형식: 면허번호 , 발급 지역(주, 도, 나라)
+◆Mother’s Identifier
+신생아용
+•환자의 엄마에 대한 아이디를 기록하는 필드
+컴포넌트 형식: 아이디 (ST), 체크용 숫자(NM), 체크 형식(ID), 기관 아이디 (ST)

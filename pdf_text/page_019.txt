@@ -1,27 +1,16 @@
-· 통계학의역사 
-e 독일매서 가우스란? 
-'（-’강원LRS공유대악 
-GN4480100S8 
-Dou!"h<, 8떠dosbo쇼 
-뇨또꿉… 
-’ • 
-fronkl..-t om Mein , 
-tSeptember1999 -
-X
-엿
-V
-W
-U
-J
-HU
-s
-i
-n
-U
-J0
- 
-N
-HUJZ 
-0 유로화로 통합되기 전까지 독일 지패에 
-가우스의 정규분포 업적을 표시 
-_솔 이 미 지 줄저 : https://commons.wikimedia.org/wiki/File: 1 O_DM_Serie4_Vorderseite.Jpg 
+다양한표준소개및HL7 개요
+20메시지의개념과구성
+메시지구분자 (Message Delimiter)
+◆메시지 구분자 (Message Delimiter) 의개념
+메시지를 구성할 때사용되는 특수문자
+◆메시지 구분자 (Message Delimiter) 의구성
+세그먼트 종결자 : 0x0D
+필드 구분자 : | 
+컴포넌트 구분자 : ^
+서브 컴포넌트 구분자 : &
+반복 구분자 : ~
+이스케이프 : \
+◆Delimiter, Separator, Terminator 의차이점
+Delimiter : 어떤 내용을 제한하는 데사용
+Separator : 파일이나 필드를 구분할 때사용
+Terminator : 문자열이나 한줄이 끝났음을 의미할 때사용

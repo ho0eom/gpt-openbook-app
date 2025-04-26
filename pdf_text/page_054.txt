@@ -1,4 +1,8 @@
-• 
-사건사 자료(Event-history data) 
-e:l:IDH 의 사건사 자료 
-강원LRS공유대악 
+HL7 메시지와트랜잭션
+26ADT 메시지의세그먼트
+PID - 환자식별 Patient Identification
+◆Marital status
+환자 결혼 상태
+◆Marital status
+환자 결혼 상태
+•HL7 최신 버전에는 조금 더다양한 결혼 상태의 입력이 가능

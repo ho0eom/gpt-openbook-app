@@ -1,18 +1,10 @@
-· 행렬 
-e 행렬간의결합 
-” 예제 
-m1 <- matrix(1 :4, 2, 2) 
-m2 <- matrix(11 : 14, 2, 2) 
-rbind(m 1, m2) 
-cbind(m 1, m2) 
-> ml <- matri.x(l :4, 2, 2) 
-> m2 <- matri.x(ll:14, 2, 2) 
-> 
-> rbi.nd(ml , mZ) 
-[,1] [,Z] 
-gJ[二
-〔1：｝二』
-> cbi.nd(ml, mZ) 
-[ ,1] [ ,Z] [ ,3] [,4] 
-g:f「广戶TI 
-'（-’강원LRS공유대악 
+HL7 메시지실습
+24HL7apy 실습
+ADT_A01 의예시
+◆다음 ADT_A01 메시지를 생성한다고 가정
+MSH|^~ \&|GHH_ADT||||20080115153000||ADT^A01^ADT_A01|0123456789|P|
+2.5||||AL
+EVN||20080115153000||AAA|AAA|20080114003000
+PID|1||566 -554-3423^^^GHH^MR||EVERYMAN^ADAM^A|||M|||2222 HOME 
+STREET^^ANN ARBOR^MI^^USA||555 -555-2004~444 -333-222|||M
+NK1|1|NUCLEAR^NELDA^W|SPO|2222 HOME STREET^^ANN ARBOR^MI^^USA

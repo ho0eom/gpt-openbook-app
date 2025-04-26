@@ -1,14 +1,5 @@
-• 
-A Story - How Companies Learn Your Secrets 
-ea1 국 전역매 2,000 여 개매 달하는 매장을 운영하는 타깃(Target) 
-0 타깃은 테이터 분석 전문가인 Andrew Pole은 
-방대한 빅테이터를 모아 임신 예측 모형을 구상함 
-> 구매자는 습관적인 생활 패턴파 소비습관은 극적인 
-환경 변화가 없는 한 쉽게 바꾸지 않음 
-> 한가지 큰 변화는 바로 자녀의 즐생임! 
-> 소비자가 아이의 줄생을 앞두고 있다는 것을 예측하여 
-타킷 마케팅을하고자함 
-0 미국 전역의 타깃 매장에서 얻어진 빅테이터를 이용하여 
-임신 예측 모형을 만들고, 임신했을 것으로 판단되는 
-고객에게 메일을 전송합 
-'（-’강원LRS공유대악 
+DICOM 실습
+38Pydicom  실습하기
+Analyse  differences between DICOM files
+◆DICOM 파일 간의 차이점을 비교 분석하는 실습
+CT_small.dcm , MR_small.dcm

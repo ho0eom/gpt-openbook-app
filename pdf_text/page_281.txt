@@ -1,9 +1,4 @@
-• 
-:1:I DH 빅 [1l0l E·l 
-- 예제 
-Rstudio 에서 "dementia.csv'’ 를 불러와서 dementia 라는 
-이름을 가진 객제에 저장해보자. 
-- 예제의 R 코드 
-dementia <- read.csv("dementia.csv", header = TRUE) 
-head (dementia) 
-'（-’강원LRS공유대악 
+DICOM 실습
+45Pydicom  실습하기
+Format the output of the data set printing
+◆데이터 세트의 인쇄 출력 형식을 지정하는 실습

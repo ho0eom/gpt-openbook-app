@@ -1,23 +1,16 @@
-• 
-R Work Environment 
-·C~VOkI" 鬱'미 
-',R 
-,오 MK r_L+ `:: -L…· * 'p 
-R version 4 . 2 . 2 (2022- 10- 31 ucrt) -- "Innocent and Trusting " 
-Copyright (C) 2022 The R Foundation fo r Statistical Computing 
-Platform : x86_64 - w64 - mingw32/x64 (64 - bit) 
-R is free software and comes with ABSOLUTELY NO WARRANTY . 
-You are welcome to redistribute it under certain conditions . 
-Type ' license ( ) ' or ' licence () ' fo r di stri buti on de t ai l s . 
-R is a collaborative project with many contributors . 
-Type ' ~ontribut or s ( ) _' fo; _ more i nformation a~d 
-' citation ( ) ' on how to cite R or R packages i n publicat ions . 
-Type ' demo ( ) ' for some demos , ' help () ' for on- line help, or 
-' help . start() ' for an HTML browser i nterface to help . 
-Type ' q() ' to quit R. 
-> I 
-[
-Conso le(콘솔 창) 
-、
-non-graphical outputs이 보 이 는 창 
-'（-’강원LRS공유대악 
+HL7 메시지와트랜잭션
+43HL7 메시지세그먼트종류
+PV1 - Patient Visit
+퇴원 처분
+퇴원 시환자 처분
+집으로 퇴원, 만료 등◆Discharge Disposition
+◆Discharged to Location
+퇴원한 의료시설
+환자가 퇴원한 의료 시설, 환자가 퇴원한 날짜
+◆Bed Status
+침상 상태◆Diet Type
+식이요법 유형
+◆Servicing Facility
+서비스 시설
+•환자가 머물렀던 침상의 현재 상태
+•이전 버전과의 호환성을 위해 유지

@@ -1,33 +1,8 @@
-• 
-사건사 자료(Event-history data) 
-e 지아우식증(중지) 사건사 자료 
-'（-’강원LRS공유대악 
-r 
-、
-Normal 
-L 
-』
-r 
-、
-Early caries 
-L 
-』
-r 
-` 
-Advanced 
-caries 
-L 
-』
-Normal 
-Early caries 
-Ad vanced caries 
-• "" 
-"" 
-oo 
-►
- 
-oo 
-익 
-익 
-익 
-익 
+HL7 메시지와트랜잭션
+28HL7 메시지세그먼트종류
+PID - Patient Identification
+◆Religion
+환자 종교
+◆환자 계좌 번호
+모든 요금, 지불 등이 기록되는 회계에 의해 할당된 번호
+컴포넌트 형식: 아이디 (ST), 체크용 숫자(NM), 체크 형식(ID), 기관 아이디 (ST)

@@ -1,26 +1,7 @@
-.[R] 상자그림 
-e 여러 변수의 단위가 같지 않은 경우매는 
-1:11 교가 쉽지 않음 
-” 예제 
-I boxplot(scale(trees)) 
-'（-’강원LRS공유대악 
-c 
-c 
-..... 
-。
-L, 
-丁
-— 
-............ 
-. 
-. 
-....... _ 
-二
-— 
-l 
-I 
-• • • — 
-z, 
-Girth 
-Height 
-Volume 
+DICOM 소개및개념
+30DICOM 연결
+클라이언트 요청
+1.클라이언트가 TCP/IP 수준에서네트워크연결개시
+2.클라이언트가 A-associate 요청을서버로보냄
+Presentation Context
+3.클라이언트 자신의정보를전송

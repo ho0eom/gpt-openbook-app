@@ -1,15 +1,14 @@
-• 
-R Work Environment 
-e 편집창 
-O 스크립트 형태로 저장하여 
-콘솔 창으로 쉽게 명령어틀 
-제공해주는창임 
-O 수정이 응이하며 기존 함수나 
-오브젝트를 쉽게 구분하고 
-입력할수 있도록 함 
-0 선택한 행을 콘솔 창으로 
-이동시키려면 해당 행에서 
-Ctrl + R을 누르면 됨 
-'（-’강원LRS공유대악 
-項E" ＇" '".~ 
-卜山,·-뼈 
+HL7 메시지와트랜잭션
+46HL7 메시지세그먼트종류
+PV1 - Patient Visit
+방문 표시
+데이터가 전송되는 수준을 지정
+방문, 계정 2단계로 데이터를 전송하는데 사용되는 지표◆Visit Indicator
+기타 의료 제공자
+PRT 세그먼트로 대체되었음
+이전 버전과의 호환성을 위해 보존◆Other Healthcare Provider
+◆Service Episode Description
+서비스 에피소드 설명
+◆Service Episode Identifier
+서비스 에피소드 식별자
+방문이 발생한 서비스 에피소드의 식별자 포함

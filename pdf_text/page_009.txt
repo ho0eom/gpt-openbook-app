@@ -1,11 +1,5 @@
-·조사대상 
-e 통계적 주론(Statistical inference) 
-0 표본에서 얻은 정보를 이응하여 모집단매 대한 정보를 
-OIi 측 또는 주론하면서 그에 수반되는 오자의 크기까지 
-계산하는파정 
-'（-’강원LRS공유대악 
-모집단 
-• • 
-• 
-추론 
-• 
+다양한표준소개및HL7 개요
+HL7 기본용어와개념
+트리거 이벤트 (Trigger Events) 의개념
+ACK(Acknowledgement) 의개념과 분류 
+쿼리(Query) 의개념

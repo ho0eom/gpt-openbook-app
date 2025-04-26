@@ -1,14 +1,18 @@
-• 
-빅[-1101 터와 통계학 
-((국원LRS공유대박 
-e 통계학 
-0 정보화시대에 필수적으로 학습해야 하는 학문 
-O 읽어 볼만한논문 
-학술입:::모 집 (자연괴칙땝 저156집 인훈 (201n 5.3-82 
-통계학 연구의 과거·현재와 4차 산업혁명 시대의 
-대이터 사이언스의 역할과 비전 
-박 성 현* 
-The Past and Present of Statistical Study, and the Role and 
-Vision of Data Science in the 4th Industrial Revolution Era 
-Park, Sung Hyun . 
-_솔 이미지 줄저 : https://docsplayer.org/ 
+다양한표준소개및HL7 개요
+6헬스케어분야의표준및제도
+HL7
+◆HL7 표준 구성
+4개의 섹션으로 구성
+•섹션1 : 기본 표준
+섹션 1c : FHIR®
+섹션 1d : 버전 2(V2)
+섹션 1e:버전 3(V3)
+•섹션 2 :임상 및관리 도메인
+•섹션 3 : 구현 가이드
+•섹션 4 : 규칙 및참조
+파이어 (FHIR)
+◆차세대 의료정보표준 프레임워크
+HL7에서 게시한 의료 데이터 교환 표준
+고속(Fast), 의료(Healthcare), 상호운용성 (Interoperability), 리소스 (Resources)
+◆HL7의가장 최신 표준(2012 년배포)
+◆HL7의이전 표준(V2, V3, CDA, RIM) 의단점 보완
