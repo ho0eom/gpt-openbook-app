@@ -1,80 +1,77 @@
 import os
 import streamlit as st
-import openai
-import tiktoken
-import numpy as np
 from rapidfuzz import fuzz
+from openai import OpenAI
+from openai import OpenAIError
 
-# — 환경 변수에서 키 읽기 —
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# — 환경 변수에서 API 키 로드 및 클라이언트 초기화 —
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    st.error("OPENAI_API_KEY 환경변수가 설정되어 있지 않습니다.")
+    st.stop()
 
-# — 설정값 —
+client = OpenAI(api_key=api_key)
+
+# — 설정 —
 EMBEDDING_MODEL = "text-embedding-3-small"
-CHAT_MODEL      = "gpt-3.5-turbo"
-CHUNK_SIZE      = 1000   # 글자 단위
-CHUNK_OVERLAP   = 200
-TOP_K           = 5
-FUZZY_THRESHOLD = 60     # 퍼지비교 컷오프
+CHAT_MODEL = "gpt-3.5-turbo"
 
-# — 텍스트 로드 + 청크화 + 오버랩 —
-@st.cache_data(show_spinner=False)
-def load_and_chunk(path: str):
-    text = open(path, "r", encoding="utf-8").read()
+# — PDF/TXT 텍스트 로드 —
+@st.cache_data
+def load_text(path: str = "pdf_text/your_pdf.txt") -> str:
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
+
+# — 텍스트를 청크(=페이지) 단위로 분리 —
+@st.cache_data
+def chunk_text(full_text: str, chunk_size: int = 1000, overlap: int = 200):
     chunks = []
-    i = 0
-    while i < len(text):
-        chunk = text[i : i + CHUNK_SIZE]
-        chunks.append(chunk)
-        i += CHUNK_SIZE - CHUNK_OVERLAP
+    start = 0
+    while start < len(full_text):
+        end = min(start + chunk_size, len(full_text))
+        chunks.append(full_text[start:end])
+        start += chunk_size - overlap
     return chunks
 
-# — 임베딩 계산 —
-@st.cache_data(show_spinner=False)
-def embed_texts(texts: list[str]) -> np.ndarray:
+# — 청크들을 임베딩으로 변환 —
+@st.cache_data
+def embed_texts(chunks: list[str]) -> list[list[float]]:
     embeddings = []
-    for txt in texts:
-        resp = openai.embeddings.create(model=EMBEDDING_MODEL, input=txt)
-        embeddings.append(resp["data"][0]["embedding"])
-    return np.array(embeddings)
+    for txt in chunks:
+        try:
+            resp = client.embeddings.create(model=EMBEDDING_MODEL, input=txt)
+            # resp.data[0].embedding 으로 접근해야 합니다
+            embeddings.append(resp.data[0].embedding)
+        except OpenAIError as e:
+            st.error(f"임베딩 중 오류: {e}")
+            embeddings.append([0.0])  # 실패시 더미
+    return embeddings
 
-# — 질문 임베딩 + 상위 K 선택 + 퍼지 필터링 —
-def retrieve_best_chunk(question: str, chunks: list[str], embeddings: np.ndarray):
-    # 질문 임베딩
-    q_emb = openai.embeddings.create(model=EMBEDDING_MODEL, input=question)["data"][0]["embedding"]
-    q_vec = np.array(q_emb)
+# — 유사도 기반으로 가장 관련 청크 찾기 —
+def find_best_chunk(query: str, chunks: list[str], embeddings: list[list[float]]) -> int:
+    # 쿼리도 임베딩해서 비교하거나, 퍼지 매칭으로 단순 비교
+    scores = []
+    for chunk in chunks:
+        # RapidFuzz 퍼지 점수
+        score = fuzz.token_sort_ratio(query, chunk)
+        scores.append(score)
+    return max(range(len(chunks)), key=lambda i: scores[i])
 
-    # 코사인 유사도 계산
-    sims = (embeddings @ q_vec) / (
-        np.linalg.norm(embeddings, axis=1) * np.linalg.norm(q_vec) + 1e-8
+# — GPT에 질문 던지기 —
+def ask_gpt(question: str, context: str) -> str:
+    prompt = (
+        "아래 문맥만 참고해서 질문에 답하고, 답의 근거 문장을 그대로 인용해주세요.\n\n"
+        f"문맥:\n```{context}```\n\n"
+        f"질문: {question}\n"
     )
-    idxs = np.argsort(-sims)[:TOP_K]
-
-    # 퍼지매칭으로 2차 필터
-    filtered = [(i, chunks[i]) for i in idxs if fuzz.partial_ratio(question, chunks[i]) >= FUZZY_THRESHOLD]
-    if not filtered:
-        filtered = [(i, chunks[i]) for i in idxs]  # 컷오프 미달 시 상위K로 대체
-
-    return filtered[0]  # (index, text)
-
-# — GPT에게 질문 & 근거 인용 지시 —
-def ask_gpt(question: str, context: str):
-    prompt = f"""
-아래는 문서의 일부입니다. **오직 이 문맥 안에서만** 질문에 답하고, **답의 근거 문장은 문맥에서 똑같이 인용**하세요.
-
-
-❓ 질문: {question}
-
-▶️ 답변 형식:
-1) 답변:
-2) 근거 인용(문장 그대로):
-"""
-    resp = openai.chat.completions.create(
-        model=CHAT_MODEL,
-        messages=[{"role":"user","content":prompt}],
-        temperature=0.0,
-        max_tokens=500,
-    )
-    return resp.choices[0].message.content.strip()
+    try:
+        resp = client.chat.completions.create(
+            model=CHAT_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return resp.choices[0].message.content.strip()
+    except OpenAIError as e:
+        return f"ChatCompletion 오류: {e}"
 
 # — Streamlit UI —
 st.title("📘 오픈북 Q&A (임베딩+퍼지 검색)")
@@ -82,15 +79,15 @@ st.write("오타·동의어 OK · 오직 주어진 문맥에서 답과 근거 �
 
 question = st.text_input("❓ 질문을 입력하세요")
 if question:
-    with st.spinner("문서 로딩 및 임베딩 중..."):
-        chunks     = load_and_chunk("pdf_text/your_pdf.txt")
-        embeddings = embed_texts(chunks)
+    full = load_text()
+    chunks = chunk_text(full)
+    embeddings = embed_texts(chunks)
 
-    idx, best_chunk = retrieve_best_chunk(question, chunks, embeddings)
-    st.markdown(f"**▶️ 선택된 청크 인덱스:** {idx}")
+    idx = find_best_chunk(question, chunks, embeddings)
+    context = chunks[idx]
 
-    with st.spinner("AI가 답변을 생성 중..."):
-        answer = ask_gpt(question, best_chunk)
+    with st.spinner(f"청크 #{idx+1}에서 답변 생성 중…"):
+        answer = ask_gpt(question, context[:1500])
 
     st.subheader("✅ GPT의 답변")
     st.write(answer)
