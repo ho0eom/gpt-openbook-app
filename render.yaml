@@ -2,7 +2,9 @@ services:
   - type: web
     name: gpt-openbook-app
     env: python
-    buildCommand: pip install openai==1.3.5 && pip install -r requirements.txt
+    buildCommand: |
+      echo "python-3.10.13" > runtime.txt
+      pip install -r requirements.txt
     startCommand: streamlit run app/main.py
     envVars:
       - key: OPENAI_API_KEY
