@@ -1,46 +1,42 @@
-import streamlit as st
 import os
-from openai import OpenAI
+import openai
+import streamlit as st
 
-# OpenAI API 클라이언트 생성
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# ✅ 1. 환경변수에서 API 키 불러오기 (openai==1.3.5 방식)
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# 텍스트 파일 로딩
+# ✅ 2. 텍스트 파일 불러오기
 def load_pdf_text():
-    with open("pdf_text/your_pdf.txt", "r", encoding="utf-8") as file:
-        return file.read()
+    with open("pdf_text/your_pdf.txt", "r", encoding="utf-8") as f:
+        return f.read()
 
-# GPT에게 질문과 context 주고 답변 받기
-def ask_question(question, context):
-    prompt = f"""다음은 오픈북 시험을 위한 질문입니다. 주어진 문맥을 참고하여 답변하세요.
+# ✅ 3. GPT에게 질문하고 답변 받기
+def ask_gpt(question, context):
+    prompt = f"""다음 문서를 참고해서 질문에 답해주세요.
 
-문맥:
+문서 내용:
 {context}
 
-질문:
-{question}
-
+질문: {question}
 답변:"""
-
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",  # 필요 시 gpt-4로 변경 가능
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "당신은 PDF 내용을 기반으로 정확한 답변을 제공하는 어시스턴트입니다."},
+            {"role": "system", "content": "너는 똑똑한 오픈북 시험 도우미야. 주어진 문서에서만 답을 찾아야 해."},
             {"role": "user", "content": prompt}
-        ],
-        temperature=0.2
+        ]
     )
-    return response.choices[0].message.content.strip()
+    return response["choices"][0]["message"]["content"]
 
-# Streamlit 앱 UI
-st.title("📖 오픈북 PDF Q&A")
-st.write("PDF 내용 기반 질문을 입력하면 AI가 근거와 함께 답변합니다.")
+# ✅ 4. Streamlit 앱 UI 구성
+st.set_page_config(page_title="GPT 오픈북 시험 도우미")
+st.title("📘 GPT 오픈북 시험 도우미")
 
-question = st.text_input("질문을 입력하세요")
+question = st.text_input("질문을 입력하세요:")
 
 if question:
-    with st.spinner("PDF와 GPT를 참고 중입니다..."):
+    with st.spinner("답변 생성 중..."):
         context = load_pdf_text()
-        answer = ask_question(question, context)
+        answer = ask_gpt(question, context)
         st.markdown("### ✅ 답변")
         st.write(answer)
