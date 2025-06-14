@@ -1,93 +1,68 @@
-# app/main.py
 import os
 import streamlit as st
-import openai
-import tiktoken
+from openai import OpenAI
 from rapidfuzz import fuzz
 from typing import List, Tuple
-import numpy as np
 
-# — 환경변수에서 API 키 세팅 —
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# — 환경변수에서 API 키 읽기 —
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# — 설정값 —
-EMBEDDING_MODEL = "text-embedding-ada-002"
+# 설정
+EMBEDDING_MODEL = "text-embedding-3-small"
 CHAT_MODEL = "gpt-3.5-turbo"
-CHUNK_SIZE = 2000
-CHUNK_OVERLAP = 500
-TOP_K = 3
-FUZZY_THRESHOLD = 50  # RapidFuzz 점수 필터
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 200
+TOP_K = 5
 
-# — 1) 텍스트 로드 & 청크 분리 —
-@st.cache_data(show_spinner=False)
-def load_and_chunk(path: str) -> Tuple[List[Tuple[int,str]], List[List[float]]]:
-    full = open(path, "r", encoding="utf-8").read()
-    # 겹침(chunk) 기반 분리
+# — 텍스트 로드 및 청크 분리 + 임베딩 생성 —
+@st.cache_data
+def load_and_chunk(path: str) -> Tuple[List[str], List[List[float]]]:
+    text = open(path, "r", encoding="utf-8").read()
+    # 슬라이딩 윈도우 청크
     chunks = []
-    pos = 0
-    page = 1
-    while pos < len(full):
-        chunk = full[pos : pos + CHUNK_SIZE]
-        chunks.append((page, chunk))
-        pos += CHUNK_SIZE - CHUNK_OVERLAP
-        page += 1
-    # 2) 임베딩 한번만 계산
+    for i in range(0, len(text), CHUNK_SIZE - CHUNK_OVERLAP):
+        chunk = text[i : i + CHUNK_SIZE]
+        chunks.append(chunk)
+    # 임베딩
     embeddings = []
-    for _, txt in chunks:
-        resp = openai.embeddings.create(model=EMBEDDING_MODEL, input=txt)
-        embeddings.append(resp["data"][0]["embedding"])
+    for txt in chunks:
+        resp = client.embeddings.create(model=EMBEDDING_MODEL, input=txt)
+        # --- 여기만 변경 ---
+        embeddings.append(resp.data[0].embedding)
     return chunks, embeddings
 
-# — 3) semantic + fuzzy 다단계 검색 —
-def retrieve(query: str,
-             chunks: List[Tuple[int,str]],
-             embeddings: List[List[float]]) -> Tuple[List[int], str]:
-    # 3-1) 질문 임베딩
-    resp = openai.embeddings.create(model=EMBEDDING_MODEL, input=query)
-    q_emb = np.array(resp["data"][0]["embedding"])
-    # 3-2) 코사인 유사도 계산
-    sims = []
-    for i, emb in enumerate(embeddings):
-        sims.append((i, float(np.dot(q_emb, emb) / (np.linalg.norm(q_emb)*np.linalg.norm(emb)))))
-    sims.sort(key=lambda x: x[1], reverse=True)
-    # 3-3) top-k 후보 중 fuzzy 필터 후 재정렬
-    candidates = []
-    for idx, _ in sims[:TOP_K]:
-        score = fuzz.token_set_ratio(query, chunks[idx][1])
-        if score >= FUZZY_THRESHOLD:
-            candidates.append((idx, score))
-    if not candidates:
-        # fuzzy 못 넘은 경우 semantic top1 만 사용
-        candidates = [(sims[0][0], fuzz.token_set_ratio(query, chunks[sims[0][0]][1]))]
-    # 최종 1순위
-    best_idx = max(candidates, key=lambda x: x[1])[0]
-    # top-k 전체 합쳐서 컨텍스트로 전달
-    top_idxs = [i for i, _ in sims[:TOP_K]]
-    combined = "\n\n---\n\n".join(chunks[i][1] for i in top_idxs)
-    pages = [chunks[i][0] for i in top_idxs]
-    return pages, combined
+# — 쿼리 임베딩 생성 & 유사도 상위 K개 찾기 + 퍼지 매칭 필터링 ---
+@st.cache_data
+def semantic_search(query: str, chunks, embeddings) -> List[Tuple[int,str]]:
+    q_emb = client.embeddings.create(model=EMBEDDING_MODEL, input=query).data[0].embedding
+    # 코사인 유사도 계산
+    from numpy import dot
+    from numpy.linalg import norm
+    scores = [
+        dot(q_emb, emb) / (norm(q_emb)*norm(emb)+1e-8)
+        for emb in embeddings
+    ]
+    # 상위 K 인덱스
+    top_idxs = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:TOP_K]
+    # 퍼지 매칭으로 추가 후보 걸러내기
+    results = []
+    for i in top_idxs:
+        score = fuzz.partial_ratio(query, chunks[i])
+        if score > 50:  # 유사도 임계값
+            results.append((i, chunks[i]))
+    return results
 
-# — 4) GPT에게 질문 던지기 —
-def ask_gpt(query: str, pages: List[int], context: str) -> str:
-    system = (
-        "You are an assistant that answers questions *only* from the provided context. "
-        "If the answer isn’t in the context, say you couldn’t find it."
-    )
-    user = (
-        f"[=== CONTEXT START (pages {pages}) ===]\n"
-        f"{context}\n"
-        f"[=== CONTEXT END ===]\n\n"
-        f"Question: {query}\n\n"
-        "Please answer in one sentence and **quote** the exact sentence from the context as evidence."
-    )
-    resp = openai.chat.completions.create(
+# — GPT에 질문 던지기 (주어진 문맥에서만 답하도록 프롬프트 고정) —
+def ask_gpt(question: str, contexts: List[Tuple[int,str]]) -> str:
+    prompt = "아래 청크들만 보고, 질문에 답하세요. 각 답 뒤에 반드시 인용 문장(청크에서 그대로 복붙한 문장)을 제시해야 합니다.\n\n"
+    for idx, chunk in contexts:
+        prompt += f"[청크 {idx}]\n{chunk}\n\n"
+    prompt += f"질문: {question}\n\n답변:"
+
+    resp = client.chat.completions.create(
         model=CHAT_MODEL,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        temperature=0.0,
-        max_tokens=512,
+        messages=[{"role":"user","content":prompt}],
+        temperature=0
     )
     return resp.choices[0].message.content.strip()
 
@@ -95,14 +70,15 @@ def ask_gpt(query: str, pages: List[int], context: str) -> str:
 st.title("📘 오픈북 Q&A (임베딩+퍼지 검색)")
 st.write("오타·동의어 OK · 오직 주어진 문맥에서 답과 근거 인용")
 
-# 초기 로드
-chunks, embeddings = load_and_chunk("pdf_text/your_pdf.txt")
+question = st.text_input("❓ 질문을 입력하세요")
 
-query = st.text_input("❓ 질문을 입력하세요")
-if query:
-    with st.spinner("검색 중…"):
-        pages, ctx = retrieve(query, chunks, embeddings)
-    with st.spinner("AI가 답변 생성 중…"):
-        answer = ask_gpt(query, pages, ctx[:5000])
-    st.subheader("✅ 답변")
-    st.write(answer)
+if question:
+    chunks, embeddings = load_and_chunk("pdf_text/your_pdf.txt")
+    candidates = semantic_search(question, chunks, embeddings)
+    if not candidates:
+        st.warning("관련 문맥을 찾지 못했습니다.")
+    else:
+        with st.spinner("AI가 답변을 만들고 있어요..."):
+            answer = ask_gpt(question, candidates)
+        st.subheader("✅ 답변 및 인용 근거")
+        st.write(answer)
