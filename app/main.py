@@ -1,10 +1,12 @@
 import os
 import streamlit as st
+import httpx
 from openai import OpenAI
-from rapidfuzz import fuzz
 
 # — OpenAI 클라이언트 초기화 (v1 인터페이스) —
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# httpx.Client를 직접 만들어서 proxies 오류를 우회합니다.
+http_client = httpx.Client()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), http_client=http_client)
 
 # — PDF/TXT 텍스트 로드 —
 @st.cache_data
@@ -35,33 +37,29 @@ def split_pages(full_text: str):
             chunks.append((i // step + 1, full_text[i : i + step]))
         return chunks
 
-# — rapidfuzz로 오타 내성 있는 페이지 검색 —
+# — 키워드 기반으로 가장 관련 페이지 찾기 —
 def search_best_page(query: str, pages: list[tuple[int, str]]):
     best_score, best = 0, (None, "")
+    q_tokens = query.lower().split()
     for num, txt in pages:
-        score = fuzz.partial_ratio(query, txt)
+        score = sum(txt.lower().count(tok) for tok in q_tokens)
         if score > best_score:
             best_score, best = score, (num, txt)
     return best  # (page_num, content)
 
 # — GPT에게 질문 던지기 —
 def ask_gpt(question: str, page_num: int, page_txt: str):
-    system_prompt = (
-        "아래는 시험용 오픈북 도우미입니다. "
-        f"{page_num}쪽 텍스트 일부를 보고 질문에 답하고, 답의 근거 문장도 같이 제시하세요."
-    )
-    user_prompt = f"질문: {question}\n\n```페이지 내용 시작```\n{page_txt}\n```페이지 내용 끝```"
+    prompt = f"""아래는 책의 {page_num}쪽(혹은 그에 대응하는 청크) 일부입니다. \
+이 내용을 바탕으로 질문에 답하고, 답의 근거 문장도 함께 제시하세요.
+질문: {question}
+"""
     resp = client.chat.completions.create(
         model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user",   "content": user_prompt},
-        ],
+        messages=[{"role": "user", "content": prompt}],
     )
     return resp.choices[0].message.content.strip()
 
 # — Streamlit UI —
-st.set_page_config(page_title="📘 오픈북 시험 질문 도우미")
 st.title("📘 오픈북 시험 질문 도우미")
 st.write("PDF/TXT에서 가장 관련 있는 페이지를 골라 AI가 답하고 근거를 드려요.")
 
@@ -71,7 +69,6 @@ if question:
     full = load_text()
     pages = split_pages(full)
     page_num, page_txt = search_best_page(question, pages)
-
     if page_txt:
         with st.spinner(f"{page_num}쪽 내용을 분석 중..."):
             answer = ask_gpt(question, page_num, page_txt[:1500])
